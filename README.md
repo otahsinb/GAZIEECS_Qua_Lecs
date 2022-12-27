@@ -47,9 +47,11 @@ behind the agile approaches described by Fowler in his "The New Methodology" art
 **Q9:**
 :maple_leaf: Choose three of these design principles. For each, either describe it briefly or give an example that illustrates it.
 
-• Single Responsibility Principle • Open-Closed Principle
-• Liskov's Substitution Principle • Dependency Inversion Principle
-• Interface Segregation Principle
+• Single Responsibility Principle: \
+• Open-Closed Principle: \
+• Liskov's Substitution Principle: \
+• Dependency Inversion Principle: \
+• Interface Segregation Principle:
 
 **Q10:**
 :maple_leaf: Draw a simple UML class diagram that shows the relationships among customers who place orders for various kinds of office supplies from a retail store. The store serves both individuals and corporate clients. Payments are made via cash, credit, and invoice.
