@@ -1,2 +1,3 @@
-# GU_CS_Qua_Lecs
+# Software Engineering Lecture
 Gazi University Computer Science Qualification Lecture Notes
+
