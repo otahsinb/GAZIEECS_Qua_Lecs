@@ -1,10 +1,103 @@
-# GU_CS_Qua_Lecs
-Gazi University Computer Science Qualification Lecture Notes
+<div align="center" id="top"> 
+  <img src="./ftry.jpg" alt="INSALLAH" />
+
+  &#xa0;
+
+</div>
+
+<h1 align="center">Doktora Yeterlik Sınavı Çalışma Alanı</h1>
+
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/otahsinb/GU_CS_Qua_Lecs">
+
+  <img alt="Github stars" src="https://img.shields.io/github/stars/otahsinb/GU_CS_Qua_Lecs" />
+
+  <img alt="License" src="https://img.shields.io/github/license/otahsinb/GU_CS_Qua_Lecs">
+
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/otahsinb/GU_CS_Qua_Lecs" /> -->
+
+  <!-- <img alt="Repository size" src="https://img.shields.io/github/repo-size/otahsinb/GU_CS_Qua_Lecs"> -->
+  
+  <!-- <img alt="Github language count" src="https://img.shields.io/github/languages/count/otahsinb/GU_CS_Qua_Lecs"> -->
+  
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/0otahsinb/GU_CS_Qua_Lecs" /> -->
+
+</p>
 
 
+<p align="center">
+  <a href="#dart-00-açıklama">00 Açıklama</a> &#xa0; | &#xa0; 
+  <a href="#sparkler-01-veri-yapıları">01 Veri Yapıları</a> &#xa0; | &#xa0;
+  <a href="#octocat-02-algoritmalar">02 Algoritmalar</a> &#xa0; | &#xa0;
+  <a href="#surfer-03-ayrık-matematik">03 Ayrık Matematik</a> &#xa0; | &#xa0;
+  <a href="#dizzy-04-bilgisayar-ağları">04 Bilgisayar Ağları</a> &#xa0; | &#xa0;
+  <a href="#art-05-işletim-sistemleri">05 Işletim Sistemleri</a> &#xa0; | &#xa0;
+  <a href="#twisted_rightwards_arrows-06-sayısal-tasarım">06 Sayısal Tasarım</a> &#xa0; | &#xa0;
+  <a href="#fish_cake-07-yazılım-mühendisliği">07 Yazılım Mühendisliği</a> &#xa0; | &#xa0;
+  <a href="#dvd-08-veritabanı">08 Veritabanı</a> &#xa0; | &#xa0;
+  <a href="#factory-09-bilgisayar-mimarisi">09 Bilgisayar Mimarisi</a> &#xa0; | &#xa0;
+  <a href="#sparkles-10-yapay-zeka">10 Yapay Zeka</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/0sir1ss" target="_blank">Author</a>
+</p>
 
-# Software Engineering Lecture
-Gazi University Computer Science Qualification Lecture Notes
+<br>
+
+## :dart: 00 Açıklama ##
+
+ Bu alan bilgisayar bilimleri doktora yeterlik sınavı notlarını kaydetme amacıyla kendim için açtığım bir alandır. Burada yeterlik sınavında sorumlu olunan derslerin notlarını bulabilirsiniz.
+ 
+ First there's [here](https://pyob.oxyry.com/) but purchasing it c junk code and custom encryption, and includes the obfuscation found in Carbon.
+
+
+## :sparkles: Features ##
+
+:heavy_check_mark: Dersler - Stop \
+:heavy_check_mark: Linkler - Add \
+:heavy_check_mark: Araçlar - Renas\
+:heavy_check_mark: Sınavlar - A one\
+:heavy_check_mark: Notlar - to exe with Nuitka
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+- [Python](https://www.python.org/)
+
+## :sparkler: 01 Veri Yapıları ##
+
+The following tools were used in this project:
+
+<a href="#top">Back to top</a>
+
+## :octocat: 02 Algoritmalar ##
+
+The following tools were used in this project:
+
+<a href="#top">Back to top</a>
+
+## :surfer: 03 Ayrık Matematik ##
+
+The following tools were used in this project:
+
+<a href="#top">Back to top</a>
+
+## :dizzy: 04 Bilgisayar Ağları ##
+
+<a href="#top">Back to top</a>
+
+## :art: 05 Işletim Sistemleri ##
+
+The following tools were used in this project:
+
+<a href="#top">Back to top</a>
+
+## :twisted_rightwards_arrows: 06 Sayısal Tasarım ##
+
+<a href="#top">Back to top</a>
+
+## :fish_cake: 07 Yazılım Mühendisliği ##
 
 **Q1:**
 The stages of the software development lifecycle (SDLC):\
@@ -60,3 +153,53 @@ behind the agile approaches described by Fowler in his "The New Methodology" art
 
 **Q10:**
 :maple_leaf: Draw a simple UML class diagram that shows the relationships among customers who place orders for various kinds of office supplies from a retail store. The store serves both individuals and corporate clients. Payments are made via cash, credit, and invoice.
+
+<a href="#top">Back to top</a>
+
+## :dvd: 08 Veritabanı ##
+
+
+<a href="#top">Back to top</a>
+
+## :factory: 09 Bilgisayar Mimarisi ##
+
+<a href="#top">Back to top</a>
+
+## :sparkles: 10 Yapay Zeka ##
+
+<a href="#top">Back to top</a>
+
+## :white_check_mark: Requirements ##
+
+Before starting, .
+
+If you wish 
+
+## :checkered_flag: Starting ##
+
+```bash
+# Clone this project
+$ git clone https://github.com/otahsinb/GU_CS_Qua_Lecs
+
+# Access
+$ cd GU_CS_Qua_Lecs
+
+# Run the project
+$ python xxx.py
+```
+
+If you do not compile to\
+
+You can build this with the following command:
+> python setup.py build_ext --inplace
+
+## :memo: License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
+
+
+Made with :heart: by <a href="https://github.com/otahsinb" target="_blank">otahsinb</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
