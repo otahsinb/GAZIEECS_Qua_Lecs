@@ -8,19 +8,19 @@
 <h1 align="center">Doktora Yeterlik Sınavı Çalışma Alanı</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/otahsinb/GU_CS_Qua_Lecs">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/otahsinb/GAZIEECS_Qua_Lecs">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/otahsinb/GU_CS_Qua_Lecs" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/otahsinb/GAZIEECS_Qua_Lecs" />
 
-  <img alt="License" src="https://img.shields.io/github/license/otahsinb/GU_CS_Qua_Lecs">
+  <img alt="License" src="https://img.shields.io/github/license/otahsinb/GAZIEECS_Qua_Lecs">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/otahsinb/GU_CS_Qua_Lecs" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/otahsinb/GAZIEECS_Qua_Lecs" /> -->
 
-  <!-- <img alt="Repository size" src="https://img.shields.io/github/repo-size/otahsinb/GU_CS_Qua_Lecs"> -->
+  <!-- <img alt="Repository size" src="https://img.shields.io/github/repo-size/otahsinb/GAZIEECS_Qua_Lecs"> -->
   
-  <!-- <img alt="Github language count" src="https://img.shields.io/github/languages/count/otahsinb/GU_CS_Qua_Lecs"> -->
+  <!-- <img alt="Github language count" src="https://img.shields.io/github/languages/count/otahsinb/GAZIEECS_Qua_Lecs"> -->
   
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/0otahsinb/GU_CS_Qua_Lecs" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/0otahsinb/GAZIEECS_Qua_Lecs" /> -->
 
 </p>
 
@@ -179,10 +179,10 @@ If you wish
 
 ```bash
 # Clone this project
-$ git clone https://github.com/otahsinb/GU_CS_Qua_Lecs
+$ git clone https://github.com/otahsinb/GAZIEECS_Qua_Lecs
 
 # Access
-$ cd GU_CS_Qua_Lecs
+$ cd GAZIEECS_Qua_Lecs
 
 # Run the project
 $ python xxx.py
