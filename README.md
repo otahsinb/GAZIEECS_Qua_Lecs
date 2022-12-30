@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./ftry.jpg" alt="INSALLAH" />
+  <img src="./ftry.jpg" alt="insallah" />
 
   &#xa0;
 
@@ -37,9 +37,8 @@
   <a href="#dvd-08-veritabanı">08 Veritabanı</a> &#xa0; | &#xa0;
   <a href="#factory-09-bilgisayar-mimarisi">09 Bilgisayar Mimarisi</a> &#xa0; | &#xa0;
   <a href="#sparkles-10-yapay-zeka">10 Yapay Zeka</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/0sir1ss" target="_blank">Author</a>
+  <a href="#memo-lisans">Lisans</a> &#xa0; | &#xa0;
+  <a href="https://github.com/otahsinb" target="_blank">Yazar</a>
 </p>
 
 <br>
@@ -48,52 +47,64 @@
 
  Bu alan bilgisayar bilimleri doktora yeterlik sınavı notlarını kaydetme amacıyla kendim için açtığım bir alandır. Burada yeterlik sınavında sorumlu olunan derslerin notlarını bulabilirsiniz.
  
+ ```bash
+# Clone this project
+$ git clone https://github.com/otahsinb/GAZIEECS_Qua_Lecs
+
+# Access
+$ cd GAZIEECS_Qua_Lecs
+
+# Run the project
+$ python xxx.py
+```
+
+If you do not compile to\
+
+You can build this with the following command:
+> python setup.py build_ext --inplace
+ 
  First there's [here](https://pyob.oxyry.com/) but purchasing it c junk code and custom encryption, and includes the obfuscation found in Carbon.
+:heavy_check_mark: Dersler ve Konu Başlıkları \
+:heavy_check_mark: Linkler \
+:heavy_check_mark: Kullanışlı Araçlar\
+:heavy_check_mark: Sınavlar\
+:heavy_check_mark: Notlar
 
 
-## :sparkles: Features ##
 
-:heavy_check_mark: Dersler - Stop \
-:heavy_check_mark: Linkler - Add \
-:heavy_check_mark: Araçlar - Renas\
-:heavy_check_mark: Sınavlar - A one\
-:heavy_check_mark: Notlar - to exe with Nuitka
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Python](https://www.python.org/)
 
 ## :sparkler: 01 Veri Yapıları ##
 
-The following tools were used in this project:
+...
 
 <a href="#top">Back to top</a>
 
 ## :octocat: 02 Algoritmalar ##
-
-The following tools were used in this project:
+...
 
 <a href="#top">Back to top</a>
 
 ## :surfer: 03 Ayrık Matematik ##
 
-The following tools were used in this project:
+...
 
 <a href="#top">Back to top</a>
 
 ## :dizzy: 04 Bilgisayar Ağları ##
 
+...
+
 <a href="#top">Back to top</a>
 
 ## :art: 05 Işletim Sistemleri ##
 
-The following tools were used in this project:
+...
 
 <a href="#top">Back to top</a>
 
 ## :twisted_rightwards_arrows: 06 Sayısal Tasarım ##
+
+...
 
 <a href="#top">Back to top</a>
 
@@ -158,42 +169,24 @@ behind the agile approaches described by Fowler in his "The New Methodology" art
 
 ## :dvd: 08 Veritabanı ##
 
+...
 
 <a href="#top">Back to top</a>
 
 ## :factory: 09 Bilgisayar Mimarisi ##
 
+...
+
 <a href="#top">Back to top</a>
 
 ## :sparkles: 10 Yapay Zeka ##
 
+...
+
 <a href="#top">Back to top</a>
 
-## :white_check_mark: Requirements ##
 
-Before starting, .
-
-If you wish 
-
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/otahsinb/GAZIEECS_Qua_Lecs
-
-# Access
-$ cd GAZIEECS_Qua_Lecs
-
-# Run the project
-$ python xxx.py
-```
-
-If you do not compile to\
-
-You can build this with the following command:
-> python setup.py build_ext --inplace
-
-## :memo: License ##
+## :memo: Lisans ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
