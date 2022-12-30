@@ -165,6 +165,62 @@ behind the agile approaches described by Fowler in his "The New Methodology" art
 **Q10:**
 :maple_leaf: Draw a simple UML class diagram that shows the relationships among customers who place orders for various kinds of office supplies from a retail store. The store serves both individuals and corporate clients. Payments are made via cash, credit, and invoice.
 
+
+**Q11**
+:maple_leaf: Name and define (in the context of software engineering) one desirable software quality, other than “maintainability” and “correctness,”
+
+**Q12**
+:maple_leaf: software process model nedir? Örnekler ile açıklayınız.
+
+**Q13**
+:maple_leaf: explain processes of requirements engineering.
+
+**Q14**
+:maple_leaf: explain Extreme Programming practices.
+
+**Q15** 
+:maple_leaf: Why is the waterfall model called an “ideal” model?
+Short Answer: It represents the software process as having no imperfections.
+
+**Q16**
+:maple_leaf: Draw a UML class diagram (chapter 5, slide 9) representing a book defined by the following statement: “A book is composed of a number of parts, which in turn are composed of a number of chapters. Chapters are composed of sections.” Focus only on classes and relationships.  Add multiplicity to the class diagram you produced.
+
+**Q17**
+:maple_leaf: List and describe (using at least one sentence each) the three types of software maintenance.  Which one of the three typically gets over half (65%) of the maintenance effort?  (in other words, more time is spent on this type of maintenance). Why?
+
+**Q18**
+:maple_leaf: List and describe at least three techniques for deriving test cases (for any kind of software testing).  Your answer should have at least three sentences (at least one for each technique).
+
+**Q19**
+:maple_leaf: Draw a class diagram showing the structure of data about employees of a given company.  The employees attributes include name, street address, city, state, zip, and an id number.  The employees also have an annual salary.  Departments have names and are composed of a collection of employees, but each employee can be in only one department.  Employees work on one or more projects, which also have names.  Projects may have multiple employees assigned to them. Include multiplicity, and attributes in your diagram. 
+
+**Q20**
+:maple_leaf: Given the UML class diagram on the next page decompose it into a set of components (subsystems) that has at least 2 (but no more than 4) components. Use the goals of loose coupling and high cohesion (and any other heuristics that may apply) for deciding which classes should go in each component.
+
+<img src="./or1.png" alt="or1" />
+
+**Q21**
+:maple_leaf: Draw a control flow diagram for the following source code:  Then:
+•assign a number to each node.
+•list the unique paths through the control flow diagram (use a sequence of node numbers to identify each path).
+•for each unique path, generate a test case by giving values to use for a, b, and c to make the program run through that path. Also give the expected result (the value of d). 
+
+> d = 0;
+> if (a > b)
+>> d = d+1;
+> if (b > c)
+>> d = d+2;
+> cout << d << endl;
+
+
+**Q22**
+:maple_leaf: 
+
+**Q23**
+:maple_leaf: 
+
+
+
 <a href="#top">Back to top</a>
 
 ## :dvd: 08 Veritabanı ##
