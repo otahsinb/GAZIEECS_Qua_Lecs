@@ -197,7 +197,8 @@ Short Answer: It represents the software process as having no imperfections.
 **Q20**
 :maple_leaf: Given the UML class diagram on the next page decompose it into a set of components (subsystems) that has at least 2 (but no more than 4) components. Use the goals of loose coupling and high cohesion (and any other heuristics that may apply) for deciding which classes should go in each component.
 
-<img src="./or1.png" alt="or1" />
+
+<img src="./or1.PNG" alt="or1" />
 
 **Q21**
 :maple_leaf: Draw a control flow diagram for the following source code:  Then:
@@ -206,18 +207,70 @@ Short Answer: It represents the software process as having no imperfections.
 •for each unique path, generate a test case by giving values to use for a, b, and c to make the program run through that path. Also give the expected result (the value of d). 
 
 > d = 0;
-> if (a > b)
+> 
+> if (a > b);
+> 
 >> d = d+1;
-> if (b > c)
+>> 
+> if (b > c);
+> 
 >> d = d+2;
+>> 
 > cout << d << endl;
 
 
 **Q22**
-:maple_leaf: 
+:maple_leaf: Test a method called “verifyPassword” that takes a string representing a proposed password, and returns true if it meets the following criteria (and false if it doesn’t):
+•at least 7 characters •at least one digit
+•at least one uppercase letter Identify at least 5 testing partitions for this function, and derive a set of test cases (one for each partition).  Be sure to include the test data value(s) and expected result(s) for each test case.
 
 **Q23**
-:maple_leaf: 
+:maple_leaf: Develop a set of use case diagrams (with one-sentence textual descriptions) to describe the requirements for a university scheduling system that manages the university’s course offerings, including students registering for courses. You should include at least 3 actors. Each actor should have at least one use case that is unique. You should have at least 5 use cases (interactions).
+
+**Q24**
+:maple_leaf: Design and draw the basic architecture of a video chess game that can be played on a smart phone using one of the architectural design patterns from chapter 6 (indicate in your answer which pattern you are using). The current state of the game board should be able to be viewed in 2D or 3D or even in a text format (suitable for e-mailing). The user can move pieces by touching and dragging the pieces on the screen. The moves may be animated (or not).
+
+
+**Q25**
+:maple_leaf: List and describe three methods or tools used during requirements development (in any of the four sub-disciplines). How does each method contribute to the goal of developing requirements specifications of good quality?
+
+
+**Q26**
+:maple_leaf: Choose 3 of the 12 core practices of Extreme Programming (XP) and give a brief description of each. For each one indicate what benefit it provides over more traditional development methods (assuming it is used in the context of agile development).
+
+
+**Q27**
+:maple_leaf: Give an example of a design pattern whose use is obvious from a class diagram but not from a sequence diagram. (Don’t choose one that is built into (some) programming languages, such as inheritance.) Explain why, in 1 sentence.
+
+Short Ans: Composite: the members of a class are of a type that allows similar operations (perhaps they implement an interface in common with the container class). Observer: especially easy if there’s an hobservesi notation on an arrow. For many patterns it’s possible to argue either way (and we were looking for your argument, not just a name). A common pitfall here was conflating class and object diagrams.
+
+
+**Q28**
+:maple_leaf: Give an example of a design pattern whose use is obvious from a sequence diagram but not from a class diagram. (Don’t choose one that is built into (some) programming languages, such as iteration.) Explain why, in 1 sentence.
+
+Short Ans : Factory: an actor creates an object in response to a call, and the caller subsequently sends messages to the newly created object. Decorator: every message to the decorator object is followed by a call to the object it decorates.
+
+
+**Q29**
+:maple_leaf: Consider two components A and B. Two software engineers, Laurel and Hardy, measure the dependences between A and B. Laurel uses these dependences when computing cohesion, and Hardy uses these dependences when computing coupling. Is this possible, if both engineers are performing a sensible and useful computation? In 1–2 sentences, explain why or why not.
+
+SA: Yes. Laurel is considering a larger module C that contains both A and B as implementation details. Hardy is considering the implementation of C, and thinking of A and B as modules. 
+
+**Q30**
+:maple_leaf:
+
+
+**Q31**
+:maple_leaf:
+
+
+**Q32**
+:maple_leaf:
+
+
+**Q33**
+:maple_leaf:
+
 
 
 
