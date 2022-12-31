@@ -75,40 +75,135 @@ You can build this with the following command:
 
 ## :sparkler: 01 Veri Yapıları ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :octocat: 02 Algoritmalar ##
-...
+
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :surfer: 03 Ayrık Matematik ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :dizzy: 04 Bilgisayar Ağları ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :art: 05 Işletim Sistemleri ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :twisted_rightwards_arrows: 06 Sayısal Tasarım ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :fish_cake: 07 Yazılım Mühendisliği ##
+
+    .
+    ├── Software Engineering Methods
+    ├── Software Development Processes
+    ├── System modeling, context models, Interaction models, Structural models
+    ├── Software Requirements
+    ├── Software Modelling
+    ├── Behavioral models, model-driven engineering
+    ├── Prototyping
+    ├── Software Design and Representation
+    ├── User Interface Design
+    ├── Software Testing
+    ├── Software Project Management
+    ├── Software Quality Assurance
+    └── Software Process Improvement
+
 
 **Q1:**
 The stages of the software development lifecycle (SDLC):\
@@ -278,19 +373,58 @@ SA: Yes. Laurel is considering a larger module C that contains both A and B as i
 
 ## :dvd: 08 Veritabanı ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :factory: 09 Bilgisayar Mimarisi ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
 ## :sparkles: 10 Yapay Zeka ##
 
-...
+    .
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 
 <a href="#top">Back to top</a>
 
