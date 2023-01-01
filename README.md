@@ -20,7 +20,7 @@
   
   <!-- <img alt="Github language count" src="https://img.shields.io/github/languages/count/otahsinb/GAZIEECS_Qua_Lecs"> -->
   
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/0otahsinb/GAZIEECS_Qua_Lecs" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/otahsinb/GAZIEECS_Qua_Lecs" /> -->
 
 </p>
 
@@ -30,6 +30,10 @@
   <a href="#sparkler-linkler">Linkler</a> &#xa0; | &#xa0;
   <a href="#octocat-araçlar">Araçlar</a> &#xa0; | &#xa0;
   <a href="#surfer-gantt-chart">Gantt Chart</a> &#xa0; | &#xa0;
+  <a href="#art-okunacaklar">Okunacaklar</a> &#xa0; | &#xa0;
+  <a href="#twisted_rightwards_arrows-yöntem">Yöntem</a> &#xa0; | &#xa0;
+  <a href="#dvd-veriler">Veriler</a> &#xa0; | &#xa0;
+  
   <!-- <a href="#dizzy-04-bilgisayar-ağları">04 Bilgisayar Ağları</a> &#xa0; | &#xa0;
   <a href="#art-05-işletim-sistemleri">05 Işletim Sistemleri</a> &#xa0; | &#xa0;
   <a href="#twisted_rightwards_arrows-06-sayısal-tasarım">06 Sayısal Tasarım</a> &#xa0; | &#xa0;
@@ -45,9 +49,9 @@
 
 ## :dart: Açıklama ##
 
- Bu alan bilgisayar bilimleri doktora yeterlik sınavı notlarını kaydetme amacıyla kendim için açtığım bir alandır. Burada yeterlik sınavında sorumlu olunan derslerin notlarını bulabilirsiniz.
+Bu alan bilgisayar bilimleri doktora yayın çalışmalarımı kaydetme amacıyla kendim için açtığım bir alandır.
  
- First there's [here](https://pyob.oxyry.com/) but.\
+First there's [here](https://pyob.oxyry.com/) but.\
 :heavy_check_mark: Dersler ve Konu Başlıkları \
 :heavy_check_mark: Linkler \
 :heavy_check_mark: Kullanışlı Araçlar\
@@ -69,6 +73,27 @@
 <a href="#top">Back to top</a>
 
 ## :surfer: Gantt Chart ##
+
+...
+
+
+<a href="#top">Back to top</a>
+
+## :art: Okunacaklar ##
+
+...
+
+
+<a href="#top">Back to top</a>
+
+## :twisted_rightwards_arrows: Yöntem ##
+
+...
+
+
+<a href="#top">Back to top</a>
+
+## :dvd: Veriler ##
 
 ...
 
