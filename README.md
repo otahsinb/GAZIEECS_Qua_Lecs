@@ -30,8 +30,8 @@
   <a href="#sparkler-linkler">Linkler</a> &#xa0; | &#xa0;
   <a href="#octocat-araçlar">Araçlar</a> &#xa0; | &#xa0;
   <a href="#surfer-gantt-chart">Gantt Chart</a> &#xa0; | &#xa0;
-  <a href="#art-okunacaklar">Okunacaklar</a> &#xa0; | &#xa0;
-  <a href="#twisted_rightwards_arrows-yöntem">Yöntem</a> &#xa0; | &#xa0;
+  <a href="#mag_right-okunacaklar">Okunacaklar</a> &#xa0; | &#xa0;
+  <a href="#art-yöntem">Yöntem</a> &#xa0; | &#xa0;
   <a href="#dvd-veriler">Veriler</a> &#xa0; | &#xa0;
   
   <!-- <a href="#dizzy-04-bilgisayar-ağları">04 Bilgisayar Ağları</a> &#xa0; | &#xa0;
@@ -63,7 +63,9 @@ First there's [here](https://pyob.oxyry.com/) but.\
 
 ## :sparkler: Linkler ##
 
-...
+- Grounded Theory alanında yayınları olan Rashida Hoda'nın video linki: https://www.youtube.com/watch?v=k980eEJKKvU
+- Videodaki kaynaklar
+-   1.  ...
 
 <a href="#top">Back to top</a>
 
@@ -79,14 +81,14 @@ First there's [here](https://pyob.oxyry.com/) but.\
 
 <a href="#top">Back to top</a>
 
-## :art: Okunacaklar ##
+## :mag_right: Okunacaklar ##
 
 ...
 
 
 <a href="#top">Back to top</a>
 
-## :twisted_rightwards_arrows: Yöntem ##
+## :art: Yöntem ##
 
 ...
 
