@@ -62,12 +62,16 @@ First there's [here](https://pyob.oxyry.com/) but.\
 
 
 ## :sparkler: Linkler ##
-
-- Grounded Theory alanında yayınları olan Rashida Hoda'nın video linki: https://www.youtube.com/watch?v=k980eEJKKvU
-- Videodaki kaynaklar
--   1.  ...
-
+   Link 1: [Decoding Grounded Theory for Software Engineering](https://www.youtube.com/watch?v=k980eEJKKvU) -  Rashida Hoda 2021
+   ```bash
+   Öz: ...
+   ```
+   Link 2:
+   ```bash
+   Öz: ...
+   ```
 <a href="#top">Back to top</a>
+
 
 ## :octocat: Araçlar ##
 ...
