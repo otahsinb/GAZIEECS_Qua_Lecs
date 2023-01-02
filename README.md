@@ -352,21 +352,102 @@ Short Ans : Factory: an actor creates an object in response to a call, and the c
 SA: Yes. Laurel is considering a larger module C that contains both A and B as implementation details. Hardy is considering the implementation of C, and thinking of A and B as modules. 
 
 **Q30**
-:maple_leaf:
-
+:maple_leaf: Consider two components A and B. Two software engineers, Laurel and Hardy, measure the dependences between A and B. Laurel uses these dependences when computing cohesion, and Hardy uses these dependences when computing coupling. Is this possible, if both engineers are performing a sensible and useful computation? In 1–2 sentences, explain why or why not.
+SA: Yes. Laurel is considering a larger module C that contains both A and B as implementation details. Hardy is considering the implementation of C, and thinking of A and B as modules.
 
 **Q31**
-:maple_leaf:
+:maple_leaf: In 1 sentence each, give two distinct reasons that you should not commit compiled code (such as .o or .class files) to a version control repository
 
+SAs: Merge conflicts cannot be resolved. Another way of saying the same thing is that binary files are not diffable (by the standard text-based diff algorithms).\
+Repetition of information in source and binary forms violates the DRY (don’t repeat yourself)
+principle.\
+Binary files such as .o files are architecture-dependent and may not be useful to others.\
+Binary files may contain information such as timestamps that is guaranteed to create a conflict even if generated from the same source code by others.\
+Bloat in the VCS because differences are huge.\
+Timestamps might not be preserved.\
+If there is a check-in without compiling, then they can be inconsistent with the source code.
 
 **Q32**
-:maple_leaf:
+:maple_leaf:  It is cheaper and faster to fix known bugs before you write new code. Why? In one phrase or sentence each, give three reasons. Give reasons that are as different from one another as possible.
+
+SAs:\
+• You are familiar with the code now. A related reason is that the bug will be harder to find and fix later.\
+• Later code may depend on this code. A related reason is that a bug may reveal a fundamental problem.\
+• Leaving all bugs to the end will make it harder to understand and keep to the schedule, because it’s hard to predict how long bug fixing will take.\
+• An overfull bug database is demoralizing and is likely to be ignored.\
+• You will be able to add tests for the bug once it’s been fixed to avoid future issues.\
+• Avoid feature creep.
 
 
 **Q33**
+:maple_leaf: After you find a bug but before fixing it, you should create a test case for it. In one sentence each, give three reasons that this is a good idea. Give reasons that are as distinct as possible.
+
+SAs:\
+
+• Ensures that your fix solves the problem. Don’t add a test that succeeded to begin with! A related reason is to avoid writing a test for a bug that you fixed, but that isn’t the problem indicated by the original bug fix.\
+• It helps you understand the bug and define the desired system behavior. (“It documents the bug” or “it informs others of the bug” is wrong, because it is the purpose of your bug tracking system to document your bugs. If you meant something different, such as the good answers listed here, then please be more specific.)\
+• It helps you know when you are done with bug fixing. A related reason is repeatability, and efficiency when debugging: the test is easy to run in an automated way to determine whether your fix works.
+
+Here are some more answers we accepted, even though they are really just reasons to write a test at all, and not reasons to write the test before you fix the bug:\
+• Helps to populate test suite with good tests. The test case may reveal other problems also, that would make sense to fix at the same time.\
+• Protects against reversions that reintroduce bug. It happened at least once, and it might happen again.
+
+
+**Q34**
+:maple_leaf: Consider a wrapper whose implementation logs each call that occurs. In no more than 2 sentences each, explain when the wrapper should be considered a decorator (and why), and when that same wrapper should be considered a proxy (and why).\
+
+SAs:\
+
+• Decorator: A decorator has different functionality but the same interface as the delegate. If the wrapper’s specification requires it to do the logging, then it should be considered a decorator.\
+• Proxy: A proxy has the same functionality and the same interface as the delegate. If the wrapper has a lenient specification that permits but does not require it to perform logging, then it should be considered a proxy.\
+
+
+**Q35**
+:maple_leaf: ) Recall that the interning pattern guarantees that any two objects with the same abstract value are represented by just one concrete object. Answer each part in one sentence.\
+(a) Give a usage pattern (or its characteristics) in which the interning pattern uses less memory, compared to not using it, and explain why.\
+A: A compiler symbol table, in which most symbols are used multiple times, so eliminating duplication saves memory.\
+(b) Give a usage pattern (or its characteristics) in which the interning pattern uses more memory, compared to not using it, and explain why.\
+A: A situation in which most objects have different values, so the overhead of the hash table used by the interning implementation outweighs the reduction in memory used by duplicate objects.\
+(c) Give a usage pattern (or its characteristics) in which the interning pattern uses less time, compared to not using it, and explain why. Ignore effects that are really due to memory use, such as faster allocation.\
+A: Interning makes comparisons complete faster (the equals method always first checks object equality), so if there are many comparisons, the speedup outweighs the time cost of interning, which is a search for an equal object.\
+(d) Give a usage pattern (or its characteristics) in which the interning pattern uses more time, compared to not using it, and explain why. Ignore effects that are really due to memory use, such as thrashing.\
+A: If few equality checks are performed, then the speedup does not outweigh the time cost of performing interning. The main goal of interning is to save memory, so interning can be worthwhile even if it slows down the program.
+
+**Q36**
+:maple_leaf: Explain the difference between a self-call, a synchronous callback, and an asynchronous callback. Give a concrete example of each. Draw a sequence diagram for each, and explicitly mark the self-call or callback in each (one marked call in each).\
+
+![C1](https://user-images.githubusercontent.com/54834769/210238054-6e6303c3-62f3-4d8a-a125-8ac244e647c3.JPG)
+![C2](https://user-images.githubusercontent.com/54834769/210238080-7c89c836-a79c-4ad1-827c-c0478c774298.JPG)
+![C3](https://user-images.githubusercontent.com/54834769/210238091-33ff7e09-993e-43ef-ba03-6611f8796c3e.JPG)
+
+
+
+**Q37**
 :maple_leaf:
 
+**Q38**
+:maple_leaf:
 
+**Q39**
+:maple_leaf:
+
+**Q40**
+:maple_leaf:
+
+**Q41**
+:maple_leaf:
+
+**Q42**
+:maple_leaf:
+
+**Q43**
+:maple_leaf:
+
+**Q44**
+:maple_leaf:
+
+**Q45**
+:maple_leaf:
 
 
 <a href="#top">Back to top</a>
