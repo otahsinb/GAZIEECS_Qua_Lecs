@@ -423,16 +423,26 @@ A: If few equality checks are performed, then the speedup does not outweigh the 
 
 
 **Q37**
-:maple_leaf:
+:maple_leaf: Waterfall modelini açıklayınız.
+A: Gereksinim Analizi -> Sistem ve Yazılım Tasarımı -> Gerçekleme ve Birim Testler -> Entegrasyon ve Sistem Testleri -> Operasyon ve Sistem Devamlılığı\
+Değişime karşı yavaş reaksiyon verilir.
 
 **Q38**
-:maple_leaf:
+:maple_leaf: Yazılım Mühendisliği nedir?
+A: Yazılım geliştirmenin tüm yönleri ve boyutları ile ilgilenen disipline verilen isimdir.
 
 **Q39**
-:maple_leaf:
+:maple_leaf: Incremantal Yazılım Geliştirme nedir?
+A: Tamamlanmamış versiyonlar arasında refactoring vb yöntemler ile yazılım extarnal (dış) davranışını değiştirmeden iç yapısında (internal) geliştirme yapılır.
 
 **Q40**
-:maple_leaf:
+:maple_leaf: Yazılım uygulama çeşitleri nelerdir? Örnekler ile açıklayınız.
+A: Stand-alone applications:These are application systems that run on a local computer, such as a PC. They include all necessary functionality and do not need to be connected to a network.\
+Interactive transaction-based applications: Applications that execute on a remote computer and are accessed by users from their own PCs or terminals. These include web applications such as e-commerce applications.\
+Embedded control systems: These are software control systems that control and manage hardware devices. Numerically, there are probably more embedded systems than any other type of system.\
+Batch processing systems: These are business systems that are designed to process data in large batches. They process large numbers of individual inputs to create corresponding outputs.\
+Data collection systems: These are systems that collect data from their environment using a set of sensors and send that data to other systems for processing.
+
 
 **Q41**
 :maple_leaf:
