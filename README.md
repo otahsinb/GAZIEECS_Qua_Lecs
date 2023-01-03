@@ -63,13 +63,77 @@ First there's [here](https://pyob.oxyry.com/) but.\
 
 ## :sparkler: Linkler ##
    Link 1: [Decoding Grounded Theory for Software Engineering](https://www.youtube.com/watch?v=k980eEJKKvU) -  Rashida Hoda 2021
+   
+   Literatürde 3 çeşit GT versiyonu vardır.
+   ![GT-versions](https://user-images.githubusercontent.com/54834769/210322863-f1838450-b152-415d-9c0c-6d943bfcd10e.JPG)
+   Bu 3 versiyon iyi anlaşılmalıdır.\
+   GT aslında imperical ya da evidence based nature theory'e dayanır. 
+   ![GT1-RH](https://user-images.githubusercontent.com/54834769/210323790-bc3ebb09-e242-4b92-9ab3-2f7cc4e6c293.JPG)
+   ![GT2-RH](https://user-images.githubusercontent.com/54834769/210323816-d4b95903-dbb8-4090-b09f-20ce7fb21fc4.JPG)
+  
+   Yukarıdaki çalışmalarda GT temellerinden bahsediyor yazar.
+   
+   Öz:\
+   GT Alanındaki tecrübeniz nedir sorusu ile başladı.\
+   GT soslolojikal bir method/process/lifecycle/set of stepsdir.1967 yılında Barney Glaser ve Anselm Strauss tarafından tanıtılmıştır (Discovery of Grounded Theory: Strategies for Qualitative Research: kütüphanelerden temin edilebilir). Nitel araştırmalar için güçlü olduğu vurgulanmıştır.\
+   Systematic ve rigourous bir yaklaşımdır.\
+   Focuses on in-depth research of social phenomenon.\
+   Inductive approach to evidence-based theory generation. which means collecting up evidence from real world and builing up the theory that bottom mark.\
+   Has a powerful data analysis method at its score. Bazen sadece data analizi için kullanılabilir.\
+   *Theory*
+   Data içerisindeki key-patternler nelerdir? \
+   What are the relationships between patterns? What are the emergent hypotheses? Aralarındaki linkler nelerdir?\
+   GT outcome'ı hypothesis değildir, theorydir. Rigorous bir process'tir.\   
+ 
+   ![GT-small-list](https://user-images.githubusercontent.com/54834769/210326748-fb5ffdb9-557f-47e3-ad18-39736ee6fd9a.JPG)
+
+   
+   
+   Link 2: Software process improvement (Coleman and O'Connor, 2007)
+   ```bash
+   Öz: This research focuses on complex phenomenon.
+   ```
+   
+   Link 3: Customer collaboration (Hoda et al., 2011)
+   Self-organizing teams (Hoda et al., 2012)
+   Multi-level project management challenges (Hoda and Murugesan, 2016)
+   Agile transformation (Hoda and Noble, 2017)
+   ```bash
+   Öz: .
+   ```
+   
+   Link 4: Reconciling perspectives (Adolph et al., 2012)
    ```bash
    Öz: ...
    ```
-   Link 2:
+   
+   Link 5: Software product management challenges (Jantunen and Gause, 2014)
    ```bash
    Öz: ...
    ```
+   
+   Link 5: Agile architecture (Waterman et al., 2015)
+   ```bash
+   Öz: ...
+   ```
+   
+   Link 6: Daily standup meeting (Stray et al., 2016)
+   ```bash
+   Öz: ...
+   ```
+   
+   Link 7: Self-assignment (Masood et al., 2020)
+   Scrum variations (Masood et al., 2020)
+   ```bash
+   Öz: ...
+   ```
+   
+   Link 8: Role of scrum master (Shastri et al., 2021)
+   Role of project manager (Shastri et al., 2021)
+   ```bash
+   Öz: ...
+   ```
+   
 <a href="#top">Back to top</a>
 
 
