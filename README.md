@@ -86,16 +86,56 @@ First there's [here](https://pyob.oxyry.com/) but.\
    GT outcome'ı hypothesis değildir, theorydir. Rigorous bir process'tir.\   
  
    ![GT-small-list](https://user-images.githubusercontent.com/54834769/210326748-fb5ffdb9-557f-47e3-ad18-39736ee6fd9a.JPG)
-
+  
+  GT çalışmalarını iyi yapan bazı önerilerde bulunulmuştur.\
+  1. Sistematic ve rigourous olmak için robust ve interleaved GT data collection ve analysis yapılmalıdır.\
+  2. Theory'nin outcomelarını etkili, açık bir şekilde ortaya koyulmalıdır.Örneğin theory statement ve diagram çizimi önemlidir.\
+Neden grounded theory kullanıyoruz?\
+1.  GT allows us to adress meaningful, fundamental ve complex questions.\
+2.  It allows to study human and social aspects of software engineering.\
+3.  It makes easier to conduct in-depth and multi-faceted empirical investigations\
+4.  It allows to leverage multiple data types and sources.
+5.  It allows achieve rich and multi-layered qualitative analysis.
+6.  To present high-quality findings.
+7.  It allows to balance research rigour with industrial/pratical relevance.
+8.  It allows you to lay theoretical foundations of the problem space to enable useful solutions, tools, techniques development. (? bir düşün) problem space iyi anlaşılmalı.
+9.  Develop novel empirically gorunded theories.
+10. Recommend guidelines to impact practice. (to help pratitioners)
    
+Yazara göre GT çalışmalarının popülaritesi artıyor. Fakat kalite aynı şekilde yükselmiyor. Bunun sebepleri olarak 1. method'un detaylarının (versiyon gibi) verilmemesi diyor, ikinci sebebi quideline'lara dikkat etmeden a la carte çalışmaların yapılması deniliyor (yani quideline'lara referans verilmeli diyor.), son olarak da methodun yanlış kullanılması diyor.
+Stol, K. J. et al. (2016), Grounded theory in software engineering research: a critical review and guidelines. yayınında rehber referanslar varmış.
+
+Kalitesiz yayın çıkmasının arkasındaki durumlar:
+
+1. Eager but bot equipped. #EagerButNotEquipped
+2. No version control. (Struass-Corbinian, Glaserian, Constructivist) Bir çok kişi GT'nin farklı versiyonların farkında değil ya da farklılıkları nasıl uygulayacağını bilmiyor.
+3. GT'yi sadece data analizi için mi kullanacağım? Yoksa FULL GT STUDY mi yapacağım. Bunun kararı kapsamdan kaynaklanan karışıklığı önleyecektir.
+4. Geleneksel GT'yi araştırmamıza adapte etmek istiyoruz. Fakat clear rehberler kullanmakta zorlanıyoruz.
+5. Araştırmacılar GT kullandığını düşünüyor. Fakat hakkınca uygulamıyor.
+6. Araştırmacılar GT çalışmalarını yüksek standardlarda sunmakta zorlanıyor.
+7. GT sahada yapılan bir araştırma. Katılımcıların gizliliği veya mahremiyeti içerisinde bulgularına yeterli kanıt sunamıyor. Bulduklarının yanında katılımcıların mahremiyetini de önemli.
+8. extreme review işlere giriyorlar.
+9. GT was designed by and for sociologists study social phenomena. misalignment problemi olabiliyor. Facade olarak düzgün görünüyorken arka planda farklı yerleişmler olabiliyor.
+10. ?
+
+
+
+
+
+
    
    Link 2: Software process improvement (Coleman and O'Connor, 2007)
    ```bash
-   Öz: This research focuses on complex phenomenon.
+   Öz: This research focuses on complex phenomenon. "Using gorunded theory to understand software process improvement: A study of Irish software product companies", Information and Software Technology, 49(6), 654-667.
+   Outcomes: Guess, boxes and arrows.
+   
    ```
    
-   Link 3: Customer collaboration (Hoda et al., 2011)
+   Link 3: Customer collaboration (Hoda et al., 2011) (The impact of inadequate customer collabration on self-organizing Agile teams., Information and Software Technology, vol. 53. pp. 521-534)
+   ![Customer-GT](https://user-images.githubusercontent.com/54834769/210345358-ace5f457-2aff-4400-8124-e53861d2e367.JPG)
    Self-organizing teams (Hoda et al., 2012)
+   
+   
    Multi-level project management challenges (Hoda and Murugesan, 2016)
    Agile transformation (Hoda and Noble, 2017)
    ```bash
@@ -104,7 +144,7 @@ First there's [here](https://pyob.oxyry.com/) but.\
    
    Link 4: Reconciling perspectives (Adolph et al., 2012)
    ```bash
-   Öz: ...
+   Öz: Reconciling perspectives: A grounded theory of how people manage the process of software development, 2012.
    ```
    
    Link 5: Software product management challenges (Jantunen and Gause, 2014)
