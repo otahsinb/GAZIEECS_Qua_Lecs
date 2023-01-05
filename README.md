@@ -118,6 +118,24 @@ Kalitesiz yayın çıkmasının arkasındaki durumlar:
 9. GT was designed by and for sociologists study social phenomena. misalignment problemi olabiliyor. Facade olarak düzgün görünüyorken arka planda farklı yerleişmler olabiliyor.
 10. ?
 
+*Limitations and Opportunities*
+1.  Written by and for sociologist
+2. Assumed expertise and experience (teknik olarak bilgiliyiz fakat bu alan farklı bir alan)
+3. 3 versions to understand and select from
+4. Designed to be used for theory generation
+5. Designed to study social phenomena
+6. Designed to use tratitional data, data collection, and analysis
+
+![TR-GT_OPP](https://user-images.githubusercontent.com/54834769/210771343-801620ba-cc52-453d-9c6a-707a63985216.JPG)
+
+Sosyolojik araştırma yöntemleri ile sosyo-teknik araştırma yapmaya çalışıyoruz. Bunun farkında olarak güncellemeler yapacağız. 
+Sosyo-teknik araştırma'yı Hoda çalışmasında 4 boyutta ele almış. 
+1. What is the phenomenon of topic being stuied? ....
+2. In which field or disipline does the phenomenon occur? Who are the actors?
+3. What is type of data being collected? What tools and techniques are being applied?
+4. Who is conducting the research? What are their knowedge and skills sets?
+
+![ST-GT](https://user-images.githubusercontent.com/54834769/210790894-a3aeb111-f51e-4495-9ede-3878e401be70.JPG)
 
 
 
@@ -138,9 +156,13 @@ Kalitesiz yayın çıkmasının arkasındaki durumlar:
    
    Multi-level project management challenges (Hoda and Murugesan, 2016)
    Agile transformation (Hoda and Noble, 2017)
+   Socio-Technical Grounded Theory for Software Engineering, (Hoda 2021)
    ```bash
    Öz: .
    ```
+   
+   
+   
    
    Link 4: Reconciling perspectives (Adolph et al., 2012)
    ```bash
