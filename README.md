@@ -92,7 +92,7 @@ Step by Step\
   
   GT çalışmalarını iyi yapan bazı önerilerde bulunulmuştur.
   1. Sistematic ve rigourous olmak için robust ve interleaved GT data collection ve analysis yapılmalıdır.
-  2. Theory'nin outcomelarını etkili, açık bir şekilde ortaya koyulmalıdır.Örneğin theory statement ve diagram çizimi önemlidir.
+  2. Theory'nin outcomeları etkili, açık bir şekilde ortaya koyulmalıdır.Örneğin theory statement ve diagram çizimi önemlidir.
 Neden grounded theory kullanıyoruz?
 1.  GT allows us to adress meaningful, fundamental ve complex questions.
 2.  It allows to study human and social aspects of software engineering.
