@@ -64,7 +64,9 @@ Step by Step\
    Link 1: [Decoding Grounded Theory for Software Engineering](https://www.youtube.com/watch?v=k980eEJKKvU) -  Rashida Hoda 2021
    
    Literatürde 3 çeşit GT versiyonu vardır.
+   
    ![GT-versions](https://user-images.githubusercontent.com/54834769/210322863-f1838450-b152-415d-9c0c-6d943bfcd10e.JPG)
+   
    Bu 3 versiyon iyi anlaşılmalıdır.\
    GT aslında imperical ya da evidence based nature theory'e dayanır. 
    ![GT1-RH](https://user-images.githubusercontent.com/54834769/210323790-bc3ebb09-e242-4b92-9ab3-2f7cc4e6c293.JPG)
@@ -140,11 +142,6 @@ Sosyo-teknik araştırma'yı yazar çalışmasında 4 boyutta ele almış.
 
 ![ST-GT](https://user-images.githubusercontent.com/54834769/210790894-a3aeb111-f51e-4495-9ede-3878e401be70.JPG)
 
-
-
-
-
-   
    Link 2: Software process improvement (Coleman and O'Connor, 2007)
    ```bash
    Öz: This research focuses on complex phenomenon. "Using gorunded theory to understand software process improvement: A study of Irish software product companies", Information and Software Technology, 49(6), 654-667.
@@ -153,19 +150,17 @@ Sosyo-teknik araştırma'yı yazar çalışmasında 4 boyutta ele almış.
    ```
    
    Link 3: Customer collaboration (Hoda et al., 2011) (The impact of inadequate customer collabration on self-organizing Agile teams., Information and Software Technology, vol. 53. pp. 521-534)
+   
    ![Customer-GT](https://user-images.githubusercontent.com/54834769/210345358-ace5f457-2aff-4400-8124-e53861d2e367.JPG)
+   
    Self-organizing teams (Hoda et al., 2012)
-   
-   
+      
    Multi-level project management challenges (Hoda and Murugesan, 2016)
    Agile transformation (Hoda and Noble, 2017)
    Socio-Technical Grounded Theory for Software Engineering, (Hoda 2021)
    ```bash
    Öz: .
    ```
-   
-   
-   
    
    Link 4: Reconciling perspectives (Adolph et al., 2012)
    ```bash
@@ -203,13 +198,26 @@ Sosyo-teknik araştırma'yı yazar çalışmasında 4 boyutta ele almış.
 
 
 ## :octocat: Araçlar ##
-...
+
+Nvivo aracı ile ilgili linkler:
+
+[Metodolojik Bakış 1] (https://www.youtube.com/watch?v=Dez-3SiQKXk)
+
+[Metodolojik Bakış 2] (https://www.youtube.com/watch?v=XPfZXN2bYOA)
 
 <a href="#top">Back to top</a>
 
 ## :surfer: Gantt Chart ##
 
-...
+Tez dönemi boyunca takip etmeyi hedeflediğim takvimim aşağıdadır.
+
+![GChart_1](https://user-images.githubusercontent.com/54834769/211194088-e16dc355-14ce-4c17-8cb6-925484d0acd4.PNG)
+
+İlk 6 aylık dönem için (ilk iş planım için) çalışma hedeflerim aşağıdadır.
+
+![GChart_2](https://user-images.githubusercontent.com/54834769/211194107-98aaacc3-604f-4ace-ac3a-86267dae98ee.PNG)
+
+
 
 
 <a href="#top">Back to top</a>
@@ -223,14 +231,14 @@ Sosyo-teknik araştırma'yı yazar çalışmasında 4 boyutta ele almış.
 
 ## :art: Yöntem ##
 
-...
+Turing Testi ile ilgili araştırmalarımı bu alana koyacağım.
 
 
 <a href="#top">Back to top</a>
 
 ## :dvd: Veriler ##
 
-...
+Yazılım geliştirme alanında en az 5 yıllık deneyim sahibi 10 kişi ile yarı yapılandırılmış mülakat çalışması gerçekleştirildi. Bu görüşmelerden sonra anket ve sesli görüşme kayıtları aldım. Bunları metin haline getirdim. Bu kaynaklar için doi numarası alacağım. Erişilebilir bir veritabanında saklayacağım.
 
 
 <a href="#top">Back to top</a>
