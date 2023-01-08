@@ -211,13 +211,11 @@ Nvivo aracı ile ilgili linkler:
 
 Tez dönemi boyunca takip etmeyi hedeflediğim takvimim aşağıdadır.
 
-![GChart_1](https://user-images.githubusercontent.com/54834769/211194088-e16dc355-14ce-4c17-8cb6-925484d0acd4.PNG)
+![_GChart_1](https://user-images.githubusercontent.com/54834769/211194884-0a8099c5-6a27-4d21-8d8a-45191cdb33b9.jpg)
 
 İlk 6 aylık dönem için (ilk iş planım için) çalışma hedeflerim aşağıdadır.
 
-![GChart_2](https://user-images.githubusercontent.com/54834769/211194107-98aaacc3-604f-4ace-ac3a-86267dae98ee.PNG)
-
-
+![_GChart_2](https://user-images.githubusercontent.com/54834769/211194895-0e89bef2-fad6-4784-a21f-6b5d155ce4ad.jpg)
 
 
 <a href="#top">Back to top</a>
