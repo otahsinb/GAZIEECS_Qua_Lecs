@@ -51,14 +51,13 @@
 
 Bu alan bilgisayar bilimleri doktora yayın çalışmalarımı kaydetme amacıyla kendim için açtığım bir alandır.
  
-First there's [here](https://pyob.oxyry.com/) but.\
-:heavy_check_mark: Dersler ve Konu Başlıkları \
-:heavy_check_mark: Linkler \
-:heavy_check_mark: Kullanışlı Araçlar\
-:heavy_check_mark: Sınavlar\
-:heavy_check_mark: Notlar
-
-
+Step by Step\
+:heavy_check_mark: Linkler\
+:heavy_check_mark: Araçlar\
+:heavy_check_mark: Gantt Chart\
+:heavy_check_mark: Okunacaklar\
+:heavy_check_mark: Yöntem\
+:heavy_check_mark: Veriler
 
 
 ## :sparkler: Linkler ##
@@ -75,25 +74,27 @@ First there's [here](https://pyob.oxyry.com/) but.\
    
    Öz:\
    GT Alanındaki tecrübeniz nedir sorusu ile başladı.\
-   GT soslolojikal bir method/process/lifecycle/set of stepsdir.1967 yılında Barney Glaser ve Anselm Strauss tarafından tanıtılmıştır (Discovery of Grounded Theory: Strategies for Qualitative Research: kütüphanelerden temin edilebilir). Nitel araştırmalar için güçlü olduğu vurgulanmıştır.\
+   GT sosyolojikal bir method/process/lifecycle/set of steps'dir.1967 yılında Barney Glaser ve Anselm Strauss tarafından tanıtılmıştır (Discovery of Grounded Theory: Strategies for Qualitative Research: kütüphanelerden temin edilebilir). Nitel araştırmalar için güçlü olduğu vurgulanmıştır.\
    Systematic ve rigourous bir yaklaşımdır.\
    Focuses on in-depth research of social phenomenon.\
    Inductive approach to evidence-based theory generation. which means collecting up evidence from real world and builing up the theory that bottom mark.\
    Has a powerful data analysis method at its score. Bazen sadece data analizi için kullanılabilir.\
-   *Theory*
+   
+   *Theory:*
+   
    Data içerisindeki key-patternler nelerdir? \
    What are the relationships between patterns? What are the emergent hypotheses? Aralarındaki linkler nelerdir?\
-   GT outcome'ı hypothesis değildir, theorydir. Rigorous bir process'tir.\   
+   GT outcome'ı hypothesis değildir, theorydir. Rigorous bir process'tir. 
  
    ![GT-small-list](https://user-images.githubusercontent.com/54834769/210326748-fb5ffdb9-557f-47e3-ad18-39736ee6fd9a.JPG)
   
-  GT çalışmalarını iyi yapan bazı önerilerde bulunulmuştur.\
-  1. Sistematic ve rigourous olmak için robust ve interleaved GT data collection ve analysis yapılmalıdır.\
-  2. Theory'nin outcomelarını etkili, açık bir şekilde ortaya koyulmalıdır.Örneğin theory statement ve diagram çizimi önemlidir.\
-Neden grounded theory kullanıyoruz?\
-1.  GT allows us to adress meaningful, fundamental ve complex questions.\
-2.  It allows to study human and social aspects of software engineering.\
-3.  It makes easier to conduct in-depth and multi-faceted empirical investigations\
+  GT çalışmalarını iyi yapan bazı önerilerde bulunulmuştur.
+  1. Sistematic ve rigourous olmak için robust ve interleaved GT data collection ve analysis yapılmalıdır.
+  2. Theory'nin outcomelarını etkili, açık bir şekilde ortaya koyulmalıdır.Örneğin theory statement ve diagram çizimi önemlidir.
+Neden grounded theory kullanıyoruz?
+1.  GT allows us to adress meaningful, fundamental ve complex questions.
+2.  It allows to study human and social aspects of software engineering.
+3.  It makes easier to conduct in-depth and multi-faced empirical investigations.
 4.  It allows to leverage multiple data types and sources.
 5.  It allows achieve rich and multi-layered qualitative analysis.
 6.  To present high-quality findings.
@@ -102,24 +103,26 @@ Neden grounded theory kullanıyoruz?\
 9.  Develop novel empirically gorunded theories.
 10. Recommend guidelines to impact practice. (to help pratitioners)
    
-Yazara göre GT çalışmalarının popülaritesi artıyor. Fakat kalite aynı şekilde yükselmiyor. Bunun sebepleri olarak 1. method'un detaylarının (versiyon gibi) verilmemesi diyor, ikinci sebebi quideline'lara dikkat etmeden a la carte çalışmaların yapılması deniliyor (yani quideline'lara referans verilmeli diyor.), son olarak da methodun yanlış kullanılması diyor.
-Stol, K. J. et al. (2016), Grounded theory in software engineering research: a critical review and guidelines. yayınında rehber referanslar varmış.
+Yazara göre GT çalışmalarının popülaritesi artıyor. Fakat kalite aynı şekilde yükselmiyor. Bunun sebeplerinden 1.'si method'un detaylarının (versiyon gibi) verilmemesi diyor, ikinci sebebi quideline'lara dikkat etmeden a la carte çalışmaların yapılması deniliyor (yani quideline'lara referans verilmeli diyor.), son olarak da methodun yanlış kullanılması diyor.
+
+(Stol, K. J. et al. (2016), Grounded theory in software engineering research: a critical review and guidelines. yayınında rehber referanslar var.)
 
 Kalitesiz yayın çıkmasının arkasındaki durumlar:
 
-1. Eager but bot equipped. #EagerButNotEquipped
+1. Eager but not equipped. #EagerButNotEquipped
 2. No version control. (Struass-Corbinian, Glaserian, Constructivist) Bir çok kişi GT'nin farklı versiyonların farkında değil ya da farklılıkları nasıl uygulayacağını bilmiyor.
 3. GT'yi sadece data analizi için mi kullanacağım? Yoksa FULL GT STUDY mi yapacağım. Bunun kararı kapsamdan kaynaklanan karışıklığı önleyecektir.
 4. Geleneksel GT'yi araştırmamıza adapte etmek istiyoruz. Fakat clear rehberler kullanmakta zorlanıyoruz.
 5. Araştırmacılar GT kullandığını düşünüyor. Fakat hakkınca uygulamıyor.
 6. Araştırmacılar GT çalışmalarını yüksek standardlarda sunmakta zorlanıyor.
-7. GT sahada yapılan bir araştırma. Katılımcıların gizliliği veya mahremiyeti içerisinde bulgularına yeterli kanıt sunamıyor. Bulduklarının yanında katılımcıların mahremiyetini de önemli.
+7. GT sahada yapılan bir araştırma. Katılımcıların gizliliği veya mahremiyeti içerisinde bulgularına yeterli kanıt sunamıyor. Bulduklarının yanında katılımcıların mahremiyeti de önemli.
 8. extreme review işlere giriyorlar.
-9. GT was designed by and for sociologists study social phenomena. misalignment problemi olabiliyor. Facade olarak düzgün görünüyorken arka planda farklı yerleişmler olabiliyor.
-10. ?
+9. GT was designed by and for sociologists study social phenomena. bu nedenle misalignment problemi olabiliyor. Facade olarak düzgün görünüyorken arka planda farklı yerleşimler olabiliyor.
+10. ...?
 
 *Limitations and Opportunities*
-1.  Written by and for sociologist
+
+1. Written by and for sociologist
 2. Assumed expertise and experience (teknik olarak bilgiliyiz fakat bu alan farklı bir alan)
 3. 3 versions to understand and select from
 4. Designed to be used for theory generation
@@ -129,7 +132,7 @@ Kalitesiz yayın çıkmasının arkasındaki durumlar:
 ![TR-GT_OPP](https://user-images.githubusercontent.com/54834769/210771343-801620ba-cc52-453d-9c6a-707a63985216.JPG)
 
 Sosyolojik araştırma yöntemleri ile sosyo-teknik araştırma yapmaya çalışıyoruz. Bunun farkında olarak güncellemeler yapacağız. 
-Sosyo-teknik araştırma'yı Hoda çalışmasında 4 boyutta ele almış. 
+Sosyo-teknik araştırma'yı yazar çalışmasında 4 boyutta ele almış. 
 1. What is the phenomenon of topic being stuied? ....
 2. In which field or disipline does the phenomenon occur? Who are the actors?
 3. What is type of data being collected? What tools and techniques are being applied?
