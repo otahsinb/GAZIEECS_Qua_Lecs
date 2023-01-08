@@ -248,8 +248,13 @@ Tez dönemi boyunca takip etmeyi hedeflediğim takvimim aşağıdadır.
 
 ## :art: Yöntem ##
 
-Turing Testi ile ilgili araştırmalarımı bu alana koyacağım.
+*Paper Methodology*
 
+![GT-METHODOLOGY](https://user-images.githubusercontent.com/54834769/211218615-ba44045c-01d2-4b7e-8aa8-8121cfb9667f.JPG)
+
+*Grounded Thoery Analiz Adımları buraya koyulacak*
+
+....
 
 <a href="#top">Back to top</a>
 
