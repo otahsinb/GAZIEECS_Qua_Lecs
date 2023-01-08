@@ -209,6 +209,25 @@ Nvivo aracı ile ilgili linkler:
 
 ## :surfer: Gantt Chart ##
 
+## :sparkler: 01.01.2023/01.02.2023 arası çalışmalar ##
+
+    .
+    ├── Yayın okuma ve yöntem üzerinde çalışma.
+    ├── Web arayüzünde çalışmaların hazırlanması.
+    ├── GT versiyonlarının araştırılması.
+    ├── Toplanan verilerin public veri saklama alanlarına alınması.
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
+
+
+
 Tez dönemi boyunca takip etmeyi hedeflediğim takvimim aşağıdadır.
 
 ![_GChart_1](https://user-images.githubusercontent.com/54834769/211194884-0a8099c5-6a27-4d21-8d8a-45191cdb33b9.jpg)
