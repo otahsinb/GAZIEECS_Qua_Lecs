@@ -260,7 +260,7 @@ Tez dönemi boyunca takip etmeyi hedeflediğim takvimim aşağıdadır.
 
 ## :dvd: Veriler ##
 
-Yazılım geliştirme alanında en az 5 yıllık deneyim sahibi 10 kişi ile yarı yapılandırılmış mülakat çalışması gerçekleştirildi. Bu görüşmelerden sonra anket ve sesli görüşme kayıtları aldım. Bunları metin haline getirdim. Bu kaynaklar için doi numarası alacağım. Erişilebilir bir veritabanında saklayacağım.
+Yazılım geliştirme alanında en az 5 yıllık deneyim sahibi 10 kişi ile yarı yapılandırılmış mülakat çalışması gerçekleştirildi. Bu görüşmelerden sonra anket ve sesli görüşme kayıtları aldım. Bunları metin haline getirdim. Erişilebilir bir veritabanında saklanacak.
 
 
 <a href="#top">Back to top</a>
