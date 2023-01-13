@@ -75,6 +75,10 @@ You can build this with the following command:
 
 ## :sparkler: 01 Veri Yapıları ##
 
+<details>
+<summary> Konu Başlıkları </summary>
+  
+  ```sh
     .
     ├── 
     ├── 
@@ -89,6 +93,9 @@ You can build this with the following command:
     ├── 
     ├── 
     └── 
+  ```
+  
+</details>
 
 <a href="#top">Back to top</a>
 
