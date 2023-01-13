@@ -142,6 +142,56 @@ Sosyo-teknik araştırma'yı yazar çalışmasında 4 boyutta ele almış.
 
 ![ST-GT](https://user-images.githubusercontent.com/54834769/210790894-a3aeb111-f51e-4495-9ede-3878e401be70.JPG)
 
+Researcher Skills:
+
+Ontology, epistemology, reseach paradigm gibi filozofik kavramlar bilinmelidir.\
+Nitel veri analizi yeteneği olmalıdır. Bunun için veri toplama protocol designing, data analysis procedures ve diğer veri analiz tekniklerine yakınlık olmalıdır.\
+Teorik yaklaşım ve bilinç önemlidir. Teori geliştirme, soyutlama, kavramlaştırma gibi konular bilinmelidir.\
+Teorik bilincin yanında sosyo-teknik hassasiyet de önemlidir. Teknik taraf hakkında bilgi birikimi ve anlayış kolaylığı önemlidir.\
+Domain bilgisi de ayrıca katkı sağlayacaktır. Hangi sektörde kullanılacaksa bu sektör hakkında bilgi toplanmalıdır.
+
+![GT-R-SKILLS](https://user-images.githubusercontent.com/54834769/211524853-e4e0a24b-03db-4007-88d8-af567cd24b30.JPG)
+
+Yöntemimiz 2 aşamadan oluşmaktadır.
+
+![GT-DATA-to-THRY](https://user-images.githubusercontent.com/54834769/211529135-69fd64f5-63e8-42c8-82e1-59fc282b6071.JPG)
+
+
+1. Aşamada Lean Literature Review yaptık. Çalışmamızı hazırladık. Pilot çalışma olarak SSI gerçekleştirdik. Veriler üzerinde çalışarak emerging concepts (hypothesis) ve kategoriler çıkardık. Çıkardığımız bilgilerin birbiri ile bağlantılarını araştırdık.\
+
+2. Aşamada teori oluşturma çalışmalarına başlayacağız. Emergent veriler üzerinde hedef odaklı veri analizi yapacağız. Bu çalışmamızın sonunda teorik yapılandırma ortaya çıkaracağız. Teorik yapılandırma ile de yapılandırılmış bir çalışma gerçekleştirebiliriz. Bunların sonunda first stepte Mature teorimizi yani kavram ve sınıfları ile ilgili aralarındaki bağlantıları ortaya koyacağız. Last stepte yapılandırılmış ve entegre edilebilir mature theory ortaya koyacağız.\
+
+Literature Review çeşitleri.
+1. Lean literature review.
+2. Targeted literature review.
+
+![LT-RVW](https://user-images.githubusercontent.com/54834769/211531140-f01db327-da2f-43a8-988f-f25b374e92e5.JPG)
+
+*Data Collection & Analysis*
+1-  Sampling (ör: representative convinence, random, diğer yöntelerini araştıralım.)
+2-  Basic data collection.
+3-  Analysis using data coding and constant comparison.
+4-  Basic Memoing.
+
+Bu adım sonrasında güçlü kategorileri, kavramları ve aralarında ortaya çıkan ilişkileri göstereceğiz.\
+ ...... 
+ 
+ *Application and Outcomes*
+ Yukarıdaki iki aşamayıs da yaparsak (basic stage and advanced stage) bu çalışma Full STGT Study oluyor.\
+ Sadece ilk aşamayı yaparsak bu çalışma GT veri analizi oluyor.\
+ 
+ *Evaluation*
+ Değerlendirme iki kriter öne çıkmaktadır. 1.'si GT'yi ne kadar uygun uygulayabildiğimiz, 2.'si uygulama sonrasında ortaya çıkan sonucun değerlendirilmesi.\
+   Bu kısmı yazar Application ve Outcomes olarak 2'ye ayırmış. Data analizi ne kadar başarılı yaptığın uygulama ile ilgili.Güvenirlik ve titizliği ölçütleri.\
+   Çıktıların orjinalliği, ilgililiği, kullanışlılığı, tutarlılığı, mature (modifiability). Novelity. bunlar da outcomes'ın değerlendirilme metrikleri.\
+   
+   
+   
+   
+
+
+
+
    Link 2: Software process improvement (Coleman and O'Connor, 2007)
    ```bash
    Öz: This research focuses on complex phenomenon. "Using gorunded theory to understand software process improvement: A study of Irish software product companies", Information and Software Technology, 49(6), 654-667.
