@@ -186,8 +186,17 @@ Bu adım sonrasında güçlü kategorileri, kavramları ve aralarında ortaya ç
    Çıktıların orjinalliği, ilgililiği, kullanışlılığı, tutarlılığı, mature (modifiability). Novelity. bunlar da outcomes'ın değerlendirilme metrikleri.\
    
    
+   10 Resons to try Socio-TEcj GT
    
+   1- Sİmple to undestand and apply
+   2- simple process diagram ile açıklanmış bir tane var.
+   3- Clear list of prerequitei knowedge and skills
+   4- decision making about theory development may be delayed after some exprience
+   5- ....
    
+![TEN-R-F-GT](https://user-images.githubusercontent.com/54834769/212318603-8fbb15d4-abdb-4598-a320-bc52924de069.JPG)
+
+
 
 
 
