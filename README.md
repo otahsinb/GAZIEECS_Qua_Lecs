@@ -328,12 +328,12 @@ Yazılım geliştirme alanında en az 5 yıllık deneyim sahibi 10 kişi ile yar
 
 ## :boat: Yayın ##
 
-<content> 
+<details> 
 <summary>Introduction</summary>
 
   ...
   
-</content>
+</details>
 
 
 <a href="#top">Back to top</a>
