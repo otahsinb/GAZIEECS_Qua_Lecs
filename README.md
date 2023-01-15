@@ -33,6 +33,7 @@
   <a href="#mag_right-okunacaklar">Okunacaklar</a> &#xa0; | &#xa0;
   <a href="#art-yöntem">Yöntem</a> &#xa0; | &#xa0;
   <a href="#dvd-veriler">Veriler</a> &#xa0; | &#xa0;
+  <a href="#dvd-veriler">Yayın</a> &#xa0; | &#xa0;
   
   <!-- <a href="#dizzy-04-bilgisayar-ağları">04 Bilgisayar Ağları</a> &#xa0; | &#xa0;
   <a href="#art-05-işletim-sistemleri">05 Işletim Sistemleri</a> &#xa0; | &#xa0;
@@ -320,6 +321,19 @@ Tez dönemi boyunca takip etmeyi hedeflediğim takvimim aşağıdadır.
 ## :dvd: Veriler ##
 
 Yazılım geliştirme alanında en az 5 yıllık deneyim sahibi 10 kişi ile yarı yapılandırılmış mülakat çalışması gerçekleştirildi. Bu görüşmelerden sonra anket ve sesli görüşme kayıtları aldım. Bunları metin haline getirdim. Erişilebilir bir veritabanında saklanacak.
+
+
+<a href="#top">Back to top</a>
+
+
+## :boat: Yayın ##
+
+<content> 
+<summary>Introduction</summary>
+
+  ...
+  
+</content>
 
 
 <a href="#top">Back to top</a>
