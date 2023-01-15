@@ -272,14 +272,14 @@ Nvivo aracı ile ilgili linkler:
 ## :sparkler: 01.01.2023/01.02.2023 arası çalışmalar ##
 
     .
-    ├── Yayın okuma ve yöntem üzerinde çalışma.
-    ├── Web arayüzünde çalışmaların hazırlanması.
-    ├── GT versiyonlarının araştırılması.
-    ├── Toplanan verilerin public veri saklama alanlarına alınması.
-    ├── 
-    ├── 
-    ├── 
-    ├── 
+    ├── Yayın okuma ve yöntem üzerinde çalışma. (1. hafta)
+    ├── Web arayüzünde çalışmaların hazırlanması. (1. hafta)
+    ├── GT versiyonlarının araştırılması. (1. hafta)
+    ├── Toplanan verilerin public veri saklama alanlarına alınması.(-) (1. hafta)
+    ├── Introduction kısmı hazırlandı. Spell checking yapıldı. (2. hafta)
+    ├── Introduction kısmında Metaverse ve Metaverse Katılımcıları olarak iki başlık hazırlandı. Amaç kısmı ile bitirildi. (2. hafta)
+    ├── Literatür Taraması ve Methodology alanlarının hazırlanmasına başladım. (2. hafta)
+    ├── GT notlarını güncelledim, bu hafta hepsini tek metin haline getirmeye başladım. (2. hafta)
     ├── 
     ├── 
     ├── 
