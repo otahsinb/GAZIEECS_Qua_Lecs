@@ -512,6 +512,54 @@ Data collection systems: These are systems that collect data from their environm
     ├── Çok işlemcili sistemler
     └── GPGPU
 
+
+```sh
+  .
+  ├─ "Introduction to Computer Architecture and Organization"
+  ├──   Define the Von Neumann architecture and explain its main components.
+  ├──   Describe the difference between a computer's hardware and software.
+  ├──   What is the function of the control unit in a computer?
+  ├─ "Computer Performance and Measurement"
+  ├──   Explain how Moore's Law relates to the advancement of computer technology.
+  ├──   Describe the difference between instruction execution time and clock time.
+  ├──   What is the difference between throughput and latency in computer performance?
+  ├─ "Instruction Set Architecture"
+  ├──   What is an instruction set architecture (ISA)?
+  ├──   Explain the difference between CISC and RISC architectures.
+  ├──   Describe the process of instruction decoding.
+  ├─ "Computer Arithmetic and ALU Design"
+  ├──   Explain the concept of fixed-point and floating-point representation of numbers in computer architecture.
+  ├──   Describe the different types of arithmetic and logic operations that can be performed by an ALU.
+  ├──   What is the significance of overflow and underflow in computer arithmetic?
+  ├─ "Memory Hierarchy and Caching"
+  ├──   Explain the concept of a memory hierarchy and the purpose of each level.
+  ├──   Describe the difference between direct-mapped and fully-associative cache.
+  ├──   What is a cache miss and how does it affect computer performance?
+  ├─ "Processor Design and Microarchitecture"
+  ├──   Explain the concept of pipelining in computer processors.
+  ├──   Describe the difference between a scalar and a superscalar processor.
+  ├──   What is the purpose of a branch predictor in a processor?
+  ├─ "Parallelism and Multiprocessing"
+  ├──   Explain the concept of parallelism in computer architecture.
+  ├──   Describe the different types of parallelism (e.g. data parallelism, task parallelism).
+  ├──   What is the difference between symmetric multiprocessing (SMP) and asymmetric multiprocessing (AMP)?
+  ├─ "Storage Systems and I/O"
+  ├──   Explain the concept of storage hierarchy and the purpose of each level.
+  ├──   Describe the difference between magnetic and solid-state storage.
+  ├──   What is the purpose of I/O devices in a computer system?
+  ├─ "Advanced Topics in Computer Architecture"
+  ├──   Explain the concept of virtual memory and how it works.
+  ├──   Describe the difference between a normal memory access and a memory-mapped I/O access.
+  ├──   What is the purpose of a GPU in a computer system?
+  ├─ "Computer Architecture Exam Review and Best Practices"
+  ├──   Explain the best practices for studying and preparing for an exam in computer architecture.
+  ├──   Describe the importance of understanding the concepts and principles of computer architecture.
+  └──   What are the most common mistakes made during an exam in computer architecture and how to avoid them?
+```
+
+<details> 
+<summary> Çıkmış Sorular </summary>
+  
 **Q1**
 :ferris_wheel: Does pipelining improve the latency of individual instructions? Explain.
 ANS: Pipelining does NOT improve the latency of individual instructions. However, it improves the throughput. 
@@ -557,50 +605,64 @@ Write-back cache: the write is done in the cache only. A modified bit is needed 
 memory when replaced.
 
 **Q10**
-:ferris_wheel: ![SC_processor](https://user-images.githubusercontent.com/54834769/212698477-b0da6e53-5415-45ad-8732-23dedd00192a.JPG)
+:ferris_wheel:
+  
+![SC_processor](https://user-images.githubusercontent.com/54834769/212698477-b0da6e53-5415-45ad-8732-23dedd00192a.JPG)
 
-ANS: ![SC_processor_sol](https://user-images.githubusercontent.com/54834769/212698533-c5d4d59d-9a2e-4561-8a32-ac8a13222087.JPG)
+ANS:
+  
+![SC_processor_sol](https://user-images.githubusercontent.com/54834769/212698533-c5d4d59d-9a2e-4561-8a32-ac8a13222087.JPG)
 
 
 **Q11**
 :ferris_wheel:
+  
 ![Performans_processor](https://user-images.githubusercontent.com/54834769/212698812-16dad7e3-2825-4696-bff3-768c03a2898b.JPG)
 
 
 **Q12**
 :ferris_wheel:
+  
 ![pipeline1](https://user-images.githubusercontent.com/54834769/212698969-13aceb5a-2f3b-45c1-91d4-d047a3518ed2.JPG)
 
 **Q13**
 :ferris_wheel:
+  
 ![pipeline2](https://user-images.githubusercontent.com/54834769/212699109-6ac2c380-8181-4777-a027-cd0778649cca.JPG) 
 
 
 **Q14**
 :ferris_wheel:
+  
 ![cpu_design](https://user-images.githubusercontent.com/54834769/212699476-3d063d76-e6b2-40a6-9ce0-2e8d3bfef248.JPG)
 
 
 **Q15**
 :ferris_wheel:
+  
 ![cpu_design2](https://user-images.githubusercontent.com/54834769/212699682-b315aef5-9584-444a-9ea1-10b895557029.JPG)
 
 
 **Q16**
 :ferris_wheel:
+  
 ![cpu_design3](https://user-images.githubusercontent.com/54834769/212699904-b141d059-b512-4957-bff6-6ed0ee733481.JPG)
 
+  
 **Q17**
 :ferris_wheel:
+  
 ![cpu_design4](https://user-images.githubusercontent.com/54834769/212699943-3b65bb69-dddf-410f-8b07-1293c2b36c21.JPG)
 
 
 **Q18**
 :ferris_wheel:
+  
 ![cache_memory](https://user-images.githubusercontent.com/54834769/212700231-e64bf31b-21e3-4dbc-b459-103c77c6c3a5.JPG)
 
 **Q19**
-:ferris_wheel: 
+:ferris_wheel:
+  
 ![cache_perf](https://user-images.githubusercontent.com/54834769/212700266-99d4cfbd-32ac-4ec7-8613-8f47e6cf5f71.JPG)
 
 
@@ -620,7 +682,7 @@ ANS:
 :ferris_wheel:
 ANS:
 
-
+</details>
 
 <a href="#top">Back to top</a>
 
