@@ -95,6 +95,10 @@ You can build this with the following command:
     └── 
   ```
   
+  C++20 Cheatsheet
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
 </details>
 
 <a href="#top">Back to top</a>
@@ -211,6 +215,8 @@ You can build this with the following command:
     ├── Software Quality Assurance
     └── Software Process Improvement
 
+<details>
+<summary> Çıkmış Sorular </summary>
 
 **Q1:**
 The stages of the software development lifecycle (SDLC):\
@@ -466,7 +472,8 @@ Data collection systems: These are systems that collect data from their environm
 **Q45**
 :maple_leaf:
 
-
+</details>
+  
 <a href="#top">Back to top</a>
 
 ## :dvd: 08 Veritabanı ##
