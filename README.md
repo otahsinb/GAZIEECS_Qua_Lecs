@@ -491,19 +491,21 @@ Data collection systems: These are systems that collect data from their environm
 ## :factory: 09 Bilgisayar Mimarisi ##
 
     .
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    └── 
+    ├── BUS yapıları
+    ├── Cache bellek
+    ├── Komut kümeleri
+    ├── Adresleme modları ve formatları
+    ├── Register organizasyonu ve pipelining
+    ├── RISC ve CISC mimarileri
+    ├── Komut seviyesinde paralellik ve süperskalar işlemciler
+    ├── Kontrol birimi
+    ├── Multicore işlemciler
+    ├── Çok işlemcili sistemler
+    └── GPGPU
+
+**Q1**
+:maple_leaf:
+
 
 <a href="#top">Back to top</a>
 
