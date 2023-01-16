@@ -96,7 +96,7 @@ You can build this with the following command:
   
   <summary> Çıkmış Sorular </summary> <br />
   
-  :musical_score: C++20 Cheatsheet (Veri Yapıları ile İlgili Detaylı Bilgi Bulabilirsin...)
+  :musical_score: C++20 Cheatsheet (Veri Yapıları ile İlgili Detaylı Bilgi Bulabilirsin...🡓🡓🡓)
   ```sh
   https://hackingcpp.com/cpp/cheat_sheets.html
   ```
