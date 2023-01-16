@@ -513,7 +513,113 @@ Data collection systems: These are systems that collect data from their environm
     └── GPGPU
 
 **Q1**
-:maple_leaf:
+:ferris_wheel: Does pipelining improve the latency of individual instructions? Explain.
+ANS: Pipelining does NOT improve the latency of individual instructions. However, it improves the throughput. 
+
+**Q2**
+:ferris_wheel: What causes control hazards in a pipelined datapath and how control hazards can be eliminated?
+ANS: Control hazards are caused by jump and branch instructions that are delayed in a pipelined datapath. They can be eliminated by converting the next (one or two) instructions that appear after a jump or a taken branch into NOPs.
+ 
+**Q3**
+:ferris_wheel: Explain the difference between static RAM and dynamic RAM
+ANS: Static RAM: Cell is made out of 6 transistors and does not require refreshing.
+
+Dynamic RAM: Cell is made out of 1 transistor and 1 capacitor, requires refreshing, but denser (cheaper) than SRAM.
+
+**Q4**
+:ferris_wheel: Is it possible to use only one memory for both instructions and data in the single-cycle datapath? Explain why or why not. Is it possible to use only one memory for both instructions and data in a multi-cycle datapath? Explain.
+ANS: In a single-cycle datapath, a load instruction must be fetched and must read data during the same cycle. Using only one memory is NOT possible to fetch the instruction and load the data during the same cycle.  In a multi-cycle datapath, using only one memory IS possible because fetching the instruction and loading the data can occur in two different cycles.
+
+**Q5**
+:ferris_wheel: Why do we need cache memory, and why do we have two separate cache memories (I-cache and D-cache) in a pipelined processor? 
+ANS: We need cache memory to reduce memory latency. Two separate caches (I-cache and D-cache) are needed to access both of them during the same cycle by two different instructions.
+
+**Q6**
+:ferris_wheel: Explain the concepts of temporal locality and spatial locality of reference in cache memory.
+ANS: Temporal Locality: if a program references an instruction (or data) at a given address then it might reference the same address again in the future.\
+Spatial Locality: if a program references an instruction (or data) at a given address then it might reference the next address in the memory. 
+
+**Q7**
+:ferris_wheel: What needs to be stored inside a cache for block identification? How does a cache know whether there is a cache hit or miss? 
+ANS: A cache stores tags for block identification.\
+The tag stored in the cache is compared against the tag in the memory address to determine whether there is a cache hit or miss.
+
+**Q8**
+:ferris_wheel: Suppose a 4-way set-associative cache has a capacity of 32 KiB (1 KiB = 1024 bytes) and each block consists of 64 Bytes. What is the total number of blocks in the cache? What is the number of sets?
+ANS: Total number of blocks = 32 x 1024 / 64 = 512 blocks\
+Number of sets = 512 / 4 = 128 sets 
+
+**Q9**
+:ferris_wheel: Explain the difference between a write-through and a write-back cache.
+ANS: Write-through cache: every write to the cache is written to the lower-level
+memory.\
+Write-back cache: the write is done in the cache only. A modified bit is needed to indicate whether a block has been modified. Modified blocks are written back to
+memory when replaced.
+
+**Q10**
+:ferris_wheel: ![SC_processor](https://user-images.githubusercontent.com/54834769/212698477-b0da6e53-5415-45ad-8732-23dedd00192a.JPG)
+
+ANS: ![SC_processor_sol](https://user-images.githubusercontent.com/54834769/212698533-c5d4d59d-9a2e-4561-8a32-ac8a13222087.JPG)
+
+
+**Q11**
+:ferris_wheel:
+![Performans_processor](https://user-images.githubusercontent.com/54834769/212698812-16dad7e3-2825-4696-bff3-768c03a2898b.JPG)
+
+
+**Q12**
+:ferris_wheel:
+![pipeline1](https://user-images.githubusercontent.com/54834769/212698969-13aceb5a-2f3b-45c1-91d4-d047a3518ed2.JPG)
+
+**Q13**
+:ferris_wheel:
+![pipeline2](https://user-images.githubusercontent.com/54834769/212699109-6ac2c380-8181-4777-a027-cd0778649cca.JPG) 
+
+
+**Q14**
+:ferris_wheel:
+![cpu_design](https://user-images.githubusercontent.com/54834769/212699476-3d063d76-e6b2-40a6-9ce0-2e8d3bfef248.JPG)
+
+
+**Q15**
+:ferris_wheel:
+![cpu_design2](https://user-images.githubusercontent.com/54834769/212699682-b315aef5-9584-444a-9ea1-10b895557029.JPG)
+
+
+**Q16**
+:ferris_wheel:
+![cpu_design3](https://user-images.githubusercontent.com/54834769/212699904-b141d059-b512-4957-bff6-6ed0ee733481.JPG)
+
+**Q17**
+:ferris_wheel:
+![cpu_design4](https://user-images.githubusercontent.com/54834769/212699943-3b65bb69-dddf-410f-8b07-1293c2b36c21.JPG)
+
+
+**Q18**
+:ferris_wheel:
+![cache_memory](https://user-images.githubusercontent.com/54834769/212700231-e64bf31b-21e3-4dbc-b459-103c77c6c3a5.JPG)
+
+**Q19**
+:ferris_wheel: 
+![cache_perf](https://user-images.githubusercontent.com/54834769/212700266-99d4cfbd-32ac-4ec7-8613-8f47e6cf5f71.JPG)
+
+
+**Q20**
+:ferris_wheel:
+ANS:
+
+**Q21**
+:ferris_wheel:
+ANS:
+
+**Q22**
+:ferris_wheel:
+ANS:
+
+**Q23**
+:ferris_wheel:
+ANS:
+
 
 
 <a href="#top">Back to top</a>
