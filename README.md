@@ -249,10 +249,51 @@ It's worth noting that this study is based on a specific sample of Irish Softwar
    Self-organizing teams (Hoda et al., 2012)
       
    Multi-level project management challenges (Hoda and Murugesan, 2016)
+   
+   ```sh
+   The paper "Multi-level agile project management challenges: A self-organizing team perspective" by Rashina Hoda, published in 2016, uses the research method of a qualitative case study. A case study is a research method that involves an in-depth examination of a particular situation or phenomenon. This method is often used in the social sciences to study complex phenomena in real-life contexts. The qualitative case study approach is used to gain an understanding of a phenomenon through a detailed examination of the case using various data collection methods such as observation, interviews, and document analysis.
+   
+   *the research participants* are software development teams working in an organization that has adopted agile methodologies. The study was conducted on self-organizing teams that are in charge of their own work processes and are responsible for delivering software products to their customers. The sample size is not specified in the paper but the author conducted in-depth interviews with multiple members of the self-organizing teams, as well as observing the teams during their work processes.
+   
+1- The study found that self-organizing teams face several challenges in multi-level agile project management, such as balancing the needs of different stakeholders, aligning team goals with organizational goals, and ensuring effective communication and collaboration within the team and with other teams.
+
+2- The study also found that self-organizing teams often struggle with managing changes in requirements, managing dependencies between different teams, and dealing with conflicting priorities and expectations.
+
+3- The study also found that self-organizing teams face challenges in effectively communicating and collaborating with other teams and stakeholders, and in aligning team goals with organizational goals.
+
+4- The study found that self-organizing teams have to constantly balance the needs of different stakeholders, and manage changes in requirements, dependencies between different teams, and conflicting priorities and expectations.
+
+5- The study also found that self-organizing teams face challenges in effectively communicating and collaborating with other teams and stakeholders, and aligning team goals with organizational goals.
+
+6- The study suggests that effective leadership, clear communication, and regular alignment of team and organizational goals can help mitigate these challenges.
+
+It's worth noting that this study is based on a specific sample of self-organizing teams working in an organization that has adopted agile methodologies, and thus the findings might not generalize to other organizations or teams.
+   
+   
+  The paper does not explicitly specify the implications of their research. However, based on the key findings, we can infer some possible implications:
+
+1- The study highlights the challenges that self-organizing teams face in multi-level agile project management, such as balancing the needs of different stakeholders, aligning team goals with organizational goals, and ensuring effective communication and collaboration within the team and with other teams. This could be useful for software development managers, developers, and project managers in understanding how to manage competing demands and different perspectives.
+
+2- The findings of the study could be useful for organizations that are planning to implement or are already implementing agile methodologies, particularly for self-organizing teams.
+
+3- The study suggests that effective leadership, clear communication, and regular alignment of team and organizational goals can help mitigate these challenges, this can be used by organizations as a starting point for improving their agile project management.
+
+4- The study's use of qualitative case study methodology provides an interesting perspective on challenges that self-organizing teams face in multi-level agile project management, which could be used as a starting point for further research in this field.
+   ```
+   
    Agile transformation (Hoda and Noble, 2017)
+   
    Socio-Technical Grounded Theory for Software Engineering, (Hoda 2021)
    ```bash
-   Öz: .
+   Öz: uses the research method of Socio-Technical Grounded Theory. It is a combination of Grounded theory, which is a research method that aims to develop a theory that is "grounded in" or "emerging from" data collected through observation, interviews, or other methods, and socio-technical theory, which emphasizes the interdependence between social and technical systems and how they shape and are shaped by each other. This method is commonly used in the field of software engineering to study the relationship between social and technical aspects of software development and how they impact the process and outcome of software development. The goal of socio-technical grounded theory is to develop a theory that is consistent with the data and that can be used to explain the phenomenon under study.
+   
+   the research participants are software development teams and individuals working in software development organizations. The study was conducted on software development teams that are using Agile methodologies. The sample size is not specified in the paper but the author collected data through multiple sources such as observations, interviews and document analysis, It is not mentioned if the participants were selected by using specific criteria or not.
+   
+   Key Findings:
+   
+   Implications:
+   
+   
    ```
    
    Link 4: Reconciling perspectives (Adolph et al., 2012)
@@ -297,7 +338,43 @@ we can infer some possible implications:\
    
    Link 5: Software product management challenges (Jantunen and Gause, 2014)
    ```bash
-   Öz: ...
+   Öz: 
+   
+   "Using a grounded theory approach for exploring software product management challenges"
+   
+   The research participants were software product managers working in software development organizations. The study was conducted on software development teams that are using Agile methodologies. The sample size is not specified in the paper but the author conducted in-depth interviews with multiple software product managers working in different organizations, as well as observing the teams during their work processes. The author used a combination of purposive and snowball sampling to select his participants.
+   
+   Key Findings:
+   
+1- The study found that software product management is a complex and challenging task that requires balancing the needs of different stakeholders, such as customers, developers, and management.
+
+2- The study also found that software product managers face challenges in managing changes in requirements, managing dependencies between different teams, and dealing with conflicting priorities and expectations.
+
+3- The study found that software product managers have to constantly balance the needs of different stakeholders, and manage changes in requirements, dependencies between different teams, and conflicting priorities and expectations.
+
+4- The study also found that software product managers face challenges in effectively communicating and collaborating with other teams and stakeholders.
+
+5- The study suggests that effective leadership, clear communication, and regular alignment of team and organizational goals can help mitigate these challenges.
+
+6- The study presents a grounded theory of software product management challenges, which can be used as a basis for further research in the field.
+
+It's worth noting that this study is based on a specific sample of software product managers working in software development organizations, and thus the findings might not generalize to other types of organizations or teams.
+  
+  Implications:
+  
+  does not explicitly specify the implications of their research. However, based on the key findings, we can infer some possible implications:
+
+1- The study highlights the challenges that software product managers face in their role, such as balancing the needs of different stakeholders, managing changes in requirements, managing dependencies between different teams, and dealing with conflicting priorities and expectations. This could be useful for software product managers, software development managers, and project managers in understanding how to manage competing demands and different perspectives.
+
+2- The findings of the study could be useful for organizations that are planning to implement or are already implementing software product management, particularly for software development teams using Agile methodologies.
+
+3- The study suggests that effective leadership, clear communication, and regular alignment of team and organizational goals can help mitigate these challenges, this can be used by organizations as a starting point for improving their software product management.
+
+4- The study's use of grounded theory methodology provides an interesting perspective on software product management challenges, which could be used as a starting point for further research in this field.
+
+It's worth noting that this study is based on a specific sample of software product managers working in software development organizations, and thus the findings might not generalize to other types of organizations or teams.
+  
+   
    ```
    
    Link 5: Agile architecture (Waterman et al., 2015)
@@ -311,13 +388,47 @@ we can infer some possible implications:\
    ```
    
    Link 7: Self-assignment (Masood et al., 2020)
-   Scrum variations (Masood et al., 2020)
    ```bash
-   Öz: ...
+   Öz:  How agile teams make self-assignment work: a grounded theory study
+   
+   the research participants are agile software development teams working in different organizations. The study was conducted on software development teams that are using Agile methodologies and self-assignment of tasks. The sample size is not specified in the paper but the author conducted interviews with multiple members of the agile software development teams, as well as observing the teams during their work processes. The author used a combination of purposive and snowball sampling to select his participants.
+   
+   The study found that self-assignment, where team members are responsible for selecting and completing their own tasks, can be successful when the following elements are present:
+
+1- Clear Team Goals: Teams have clear and well-defined goals that are aligned with the overall organization's objectives.
+
+2- Trust: Team members trust each other and the process of self-assignment.
+
+3- Communication: Effective communication among team members is present, which enables them to collaborate and coordinate effectively.
+
+4- Empowerment: Team members feel empowered to take ownership of their tasks and make decisions.
+
+5- Feedback: Teams have a culture of continuous improvement, which includes giving and receiving feedback.
+
+The study also found that self-assignment can lead to increased motivation, ownership, and engagement among team members, as well as improved team performance. The paper suggests that organizations can foster self-assignment by building trust, fostering communication, and empowering team members.
+
+It's important to note that these findings are based on the study's specific sample and context and may not be applicable for other teams or organizations.
+
+
+Implications:
+
+The paper has several implications for organizations and individuals who are interested in using self-assignment in agile teams.
+
+1- Clear team goals: This study suggests that having clear and well-defined team goals is crucial for the success of self-assignment. Organizations should ensure that their agile teams have a clear understanding of their objectives and how they align with the overall organization's goals.
+
+2- Building trust: The study found that trust is a key factor in the success of self-assignment. Organizations should foster a culture of trust among their teams to enable self-assignment to work effectively.
+
+3- Empowerment: The study found that team members need to feel empowered to take ownership of their tasks and make decisions. Organizations should create an environment where team members feel comfortable and confident in taking on self-assigned tasks.
+
+4- Communication: Effective communication is essential for the success of self-assignment. Organizations should encourage and facilitate communication among team members to ensure that they can collaborate and coordinate effectively.
+
+5- Continuous improvement: The study found that teams that have a culture of continuous improvement, which includes giving and receiving feedback, are more likely to make self-assignment work. Organizations should foster a culture of continuous improvement to ensure the success of self-assignment.
+
+
+   
    ```
    
    Link 8: Role of scrum master (Shastri et al., 2021)
-   Role of project manager (Shastri et al., 2021)
    ```bash
    Öz: ...
    ```
