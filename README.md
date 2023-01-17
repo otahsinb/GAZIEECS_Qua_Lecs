@@ -207,6 +207,39 @@ Bu adım sonrasında güçlü kategorileri, kavramları ve aralarında ortaya ç
    Öz: This research focuses on complex phenomenon. "Using gorunded theory to understand software process improvement: A study of Irish software product companies", Information and Software Technology, 49(6), 654-667.
    Outcomes: Guess, boxes and arrows.
    
+The paper "Software Process in Practice: A Grounded Theory of the Irish Software Industry" by Coleman and O'Connor, published in 2007, uses the research method of Grounded theory.
+Grounded theory is a research method that aims to develop a theory that is "grounded in" or "emerging from" data collected through observation, interviews, or other methods. This method is commonly used in the social sciences and aims to generate a theoretical understanding of a phenomenon through the systematic collection and analysis of data. The goal of grounded theory is to develop a theory that is consistent with the data and that can be used to explain the phenomenon under study.
+   
+   
+   The research participants are the software development companies and software managers in the indigenous Irish software product industry. The study focused on the approaches used to develop software by companies at various stages of growth in this industry. It is not specified the number of companies and managers that were interviewed, but it is stated that the sample size is sufficient to generate rich data and to validate the findings.
+   
+   The key findings of the paper "Software Process in Practice: A Grounded Theory of the Irish Software Industry" by Coleman and O'Connor, published in 2007, are:
+
+Software process usage is reactive rather than proactive.
+SPI (software process improvement) programmes are implemented reactively.
+Many software managers reject SPI because of the associated implementation and maintenance costs.
+Software managers are reluctant to implement SPI models such as ISO 9000 and CMMI.
+The grounded theory produced by the study is based on two conceptual themes, Process Formation and Process Evolution, and one core theoretical category, Cost of Process.
+The study found that the software process usage in the indigenous Irish software product industry is reactive rather than proactive. The research also found that SPI programs are implemented reactively and that many software managers reject SPI due to the associated implementation and maintenance costs, and are reluctant to implement SPI models such as ISO 9000 and CMMI. The study also found that the grounded theory produced by the study is based on two conceptual themes, Process Formation and Process Evolution, and one core theoretical category, Cost of Process.
+
+
+The paper "Software Process in Practice: A Grounded Theory of the Irish Software Industry" by Coleman and O'Connor, published in 2007, does not explicitly specify the implications of their research. However, based on the key findings, we can infer some possible implications:
+
+1- The reactive rather than proactive approach to software process usage suggests that there is a need for more proactive measures to be taken in order to improve software development processes.
+
+2- The study's finding that software managers are reluctant to implement SPI models such as ISO 9000 and CMMI highlights the need for a more comprehensive understanding of these models and the benefits they can bring to software development processes.
+
+3- The cost of process as a core theoretical category in the grounded theory suggests that cost considerations should be taken into account when implementing software process improvement programs.
+
+4- The study provides an insight into the Irish software industry, it could be useful for software managers and developers in the Irish software industry and researchers who study the software industry.
+
+5- The study's use of grounded theory methodology provides an interesting perspective on software process and software process improvement, which could be used as a starting point for further research in this field.
+
+It's worth noting that this study is based on a specific sample of Irish Software Industry, and thus the findings might not generalize to other software industries.
+
+
+   
+   
    ```
    
    Link 3: Customer collaboration (Hoda et al., 2011) (The impact of inadequate customer collabration on self-organizing Agile teams., Information and Software Technology, vol. 53. pp. 521-534)
@@ -225,6 +258,41 @@ Bu adım sonrasında güçlü kategorileri, kavramları ve aralarında ortaya ç
    Link 4: Reconciling perspectives (Adolph et al., 2012)
    ```bash
    Öz: Reconciling perspectives: A grounded theory of how people manage the process of software development, 2012.
+   
+   The paper "Reconciling perspectives: A grounded theory of how people manage the process of software development" by Steve Adolph and Philippe Kruchten, published in 2012, uses the research method of Grounded theory.
+Grounded theory is a research method that aims to develop a theory that is "grounded in" or "emerging from" data collected through observation, interviews, or other methods. This method is commonly used in the social sciences and aims to generate a theoretical understanding of a phenomenon through the systematic collection and analysis of data. The goal of grounded theory is to develop a theory that is consistent with the data and that can be used to explain the phenomenon under study.
+
+the research participants were software development managers, developers and project managers working in the software industry. The authors of the paper used purposive sampling to select their participants, meaning that they selected their participants based on specific criteria they had set, such as experience in software development, familiarity with a specific software development process model, and the ability to speak English. The sample size is not specified in the paper, but the authors stated that they interviewed a total of 23 participants, and that the sample size was sufficient to generate rich data and to validate the findings.
+
+**Key Findings**
+
+1- People managing the process of software development are constantly facing the challenge of reconciling different perspectives, such as the perspective of the development team, the perspective of the management, and the perspective of the customer.
+
+2- They use a process of balancing, which includes the following elements: balancing the needs of different stakeholders, balancing the trade-offs between quality, schedule, and budget, and balancing the competing demands of different development processes.
+
+3- They also use a process of creating, which includes the following elements: creating a shared understanding of the project, creating a shared vision of the project, and creating a shared commitment to the project.
+
+4- The study found that people managing the process of software development have to constantly balance the needs of different stakeholders, trade-offs between quality, schedule, and budget, and the competing demands of different development processes.
+
+5- The study also found that people managing the process of software development have to create a shared understanding, vision and commitment to the project among the stakeholders.
+
+6- The authors developed a grounded theory of how people manage the process of software development, which they called “Reconciling perspectives”.
+
+It's worth noting that this study is based on a specific sample of software development managers, developers and project managers, and thus the findings might not generalize to other software development teams or industries.
+  
+  
+we can infer some possible implications:\
+
+1- The study highlights the importance of reconciling different perspectives in software development and the need for a process of balancing and creating among stakeholders. This could be useful for software development managers, developers, and project managers in understanding how to manage competing demands and different perspectives.
+
+2- The findings of the study could be used as a starting point for further research in software development management, specifically in the area of balancing and creating shared understanding, vision and commitment among stakeholders.
+
+3- The study could be useful for software development managers and teams, software process improvement practitioners and researchers studying software development management.
+
+4- The study's use of grounded theory methodology provides an interesting perspective on software development management, which could be used as a starting point for further research in this field.
+  
+   
+   
    ```
    
    Link 5: Software product management challenges (Jantunen and Gause, 2014)
