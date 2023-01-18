@@ -666,22 +666,301 @@ ANS:
 ![cache_perf](https://user-images.githubusercontent.com/54834769/212700266-99d4cfbd-32ac-4ec7-8613-8f47e6cf5f71.JPG)
 
 
+  
 **Q20**
-:ferris_wheel:
-ANS:
+:ferris_wheel: 
+  
+  ![Cache_organization](https://user-images.githubusercontent.com/54834769/213187048-db16767b-3b23-4408-bcbb-7d7338094b5f.JPG)
 
+  
 **Q21**
-:ferris_wheel:
-ANS:
+:ferris_wheel: Assume:
+- A processor has a direct mapped cache
+- Data words are 8 bits long (i.e. 1 byte)
+- Data addresses are to the word
+- A physical address is 20 bits long
+- The tag is 11 bits
+- Each block holds 16 bytes of data
+How many blocks are in this cache?
+
+  ANS:
+  Given that the physical address is 20 bits long, and the tag is 11 bits, there are 9 bits left over for the index and offset
+We can determine the number of bits of offset as the problem states that:
+- Data is word addressable and words are 8 bits long
+- Each block holds 16 bytes
+As there are 8 bits / byte, each block holds 16 words, thus 4 bits of offset are needed.
+This means that there are 5 bits left for the index. Thus, there are 2^5 or 32 blocks in the cache.
 
 **Q22**
 :ferris_wheel:
-ANS:
-
+  
+  ![Cache_organization#2](https://user-images.githubusercontent.com/54834769/213187342-d1d39996-822b-4b9b-9d00-b25db2e6dc9d.JPG)
+  
+  
 **Q23**
-:ferris_wheel:
-ANS:
+:ferris_wheel: If a virtual-to-physical address translation takes ~100 clock cycles, what is the most likely reason for this particular latency? Your answer must fit in the box below.\
+Solution:
+- There was a TLB miss requiring a main memory access to read the page table
+- The page table entry was valid and no page fault was incurred.
 
+**Q24**
+:ferris_wheel:
+  
+  ![amhdals_formula](https://user-images.githubusercontent.com/54834769/213188291-ef133315-7689-4e48-a3f3-f88944593321.JPG)
+
+  
+  **Q25**
+:ferris_wheel: Bu soruda geçen terimlerin açıklamalarını yazınız.
+  
+  ![MSI_MESI_protokols](https://user-images.githubusercontent.com/54834769/213188786-53883708-c530-49a5-9d0a-c36f6834fb56.JPG)
+
+  
+  **Q26** 
+:ferris_wheel: When would a compiler be able to use the lwu instruction to increase the speed of a program?
+
+  ANS: When adjacent memory locations or array elements are accessed in a loop, we can perform both the memory access and address update to access the next element in one instruction. The original MIPS will require 2.
+  
+  
+  **Q27**
+:ferris_wheel: Why do RISC architectures use fixed-width instructions?
+
+  ANS: To make instructions easy to decode and the implementation simpler. Variable-width instructions save memory, but require that the hardware handle instructions of varying width.
+  
+  
+  **Q28**
+:ferris_wheel: What are the steps required to add two floating point numbers?
+
+ANS: 
+1. Shift one number to make the exponents equal.
+2. Perform the addition
+3. Round the result
+4. Normalize the result and adjust the exponent
+  
+  **Q29**
+:ferris_wheel: What is the motivation for out-of-order execution in dynamic pipelining?
+ANS: Out-of order execution allows the execution of instructions to start execution even though earlier instruction have stalled, which increases performance.
+  
+  
+  **Q30**
+:ferris_wheel: When does a page fault occur?
+ANS:  When a processor with virtual memory attempts to access instructions or data that are not currently stored in the main memory but instead stored on disk.
+  
+  
+  **Q31**
+:ferris_wheel:
+  
+![block_design#1](https://user-images.githubusercontent.com/54834769/213191650-299ac156-95aa-4a66-b862-191770ad9254.JPG)
+ 
+  *Üstteki sorunun başıdır.*
+  
+ ![block_design#2](https://user-images.githubusercontent.com/54834769/213191815-d6e4c063-9473-47d7-8c68-ffea943182e7.JPG)
+
+![block_design#3](https://user-images.githubusercontent.com/54834769/213192014-3cc60e5d-934a-4f73-b237-afc207fabdd8.JPG)
+ 
+  
+  **Q32**
+:ferris_wheel: What does Amdahl’s Law state? (In words, not a formula.)
+ANS: The speedup is limited by the portion of the application you are accelerating
+  
+  
+  **Q33**
+:ferris_wheel: A program spends 75% of its time doing multiply instructions. If the multiplier is sped up by 3x,
+how much faster does the application run? (Report your answer as “the program is X times faster.”)
+
+  ANS: The program is 2x faster. (75% of the time is 3x faster, so that 75% now takes up 1/3 of that time, or only 25% of the original execution time. We have effectively eliminated 50% of the total execution time so the program is 2x faster.)
+  
+  
+  **Q34**
+:ferris_wheel: What is the limit on the maximum speedup if the multiplier in question 1b was infinitely fast? (Report your answer as “the program would be X times faster.”)
+
+  ANS: The program would be 4x faster. (If the 75% of the time goes infinitely fast it will take 0 time, so the total program execution time will be reduced to 25% of what it originally was, or 4x faster.)
+  
+  
+  **Q35**
+:ferris_wheel: a) How do you do subtraction with two’s complement? (In words, not a formula.)
+ANS: Using a regular adder, you invert the number to be subtracted and add one. (Set the carry in to true.)
+  
+  
+  **Q36**
+:ferris_wheel: For a 4-bit two’s complement number, show how to represent the following operations and their results. If you cannot, explain why. 
+  
+  b) 4-7
+  
+  ANS:
+  4-7 = 4+-7 = 0100+1001 = 1101 = -3
+ 
+  c) 11-3
+  
+  Cannot do this because 11 can not be represented in a 4-bit two’s complement number. The range is -8 to 7.
+  
+  **Q37**
+:ferris_wheel:
+
+  
+  ![pipeline_depth](https://user-images.githubusercontent.com/54834769/213199466-65070fef-2280-45e2-bbb2-fe1ee79801d0.JPG)
+
+  
+  
+  
+  **Q38**
+:ferris_wheel:
+  
+  
+  ![CPI](https://user-images.githubusercontent.com/54834769/213200158-1139cf68-2f7c-4774-99ff-f727ac120c9b.JPG)
+  
+  
+  **Q39**
+:ferris_wheel:
+
+  
+  ![pipelining](https://user-images.githubusercontent.com/54834769/213200609-8b821b44-d06c-4ea2-9ae0-d4a9d68bf176.JPG)
+
+  
+  **Q40**
+:ferris_wheel: The largest value that a 60-bit unsigned binary integer can represent is (260 -1). 
+ANS: (True)
+  
+  
+    **Q42**
+:ferris_wheel: If a computer uses signed-2's complement representation and 8 bit registers, what range of integers can this computer represent?
+
+  ANS: -128 to 127
+  
+  
+    **Q43**
+:ferris_wheel: “5 4 3 + × 2 × 6 –” is the reverse polish (postfix) notation of which of the following expressions
+ANS: 5 × (4 + 3) × 2 – 6 
+  
+  
+    **Q44**
+:ferris_wheel: What is the overall speedup of a system that spends 65% of its time on I/O with a disk upgrade that provides for 50% greater throughput?
+ANS: 28%
+  
+  
+    **Q45**
+:ferris_wheel: In the von Neumann model, explain the purpose of the processing unit and the program counter. 
+
+  ANS: The processing unit performs all of the arithmetic and logic functions. The program counter is responsible for keeping track of the next instruction to fetch. 
+  
+  
+    **Q46**
+:ferris_wheel: 
+  What are the maximum and minimum values that can be represented using 6 bits and
+  
+  i. 2’s complement representation and  
+  
+  ii. signed magnitude representations. 
+  
+ANS: i. Max: 31,  Min: -32
+  
+   ii. Max: 31, Min: 31
+  
+  
+    **Q47**
+:ferris_wheel:  Given the function: F(x,y,z)= xy'z + x'y'z + xyz, simplify the expression using Boolean algebra and identities and draw the logic diagram for the simplified expression.
+
+  ANS: 
+  
+  ![expression#1](https://user-images.githubusercontent.com/54834769/213206329-9f0754be-c5af-4d5b-a55f-00cec544ab2a.JPG)
+
+  
+    **Q48**
+:ferris_wheel: 
+  
+  ![expression#1](https://user-images.githubusercontent.com/54834769/213206755-17dcbaba-3780-4cc8-b052-10cfe087745e.JPG)
+
+ANS: 
+  
+  ![expression#1_sol](https://user-images.githubusercontent.com/54834769/213206789-f043546f-0ded-4f10-b2cd-7e786573fabf.JPG)
+
+ 
+
+    **Q49**
+:ferris_wheel: 
+  
+   ![bit_questionJPG](https://user-images.githubusercontent.com/54834769/213206935-ba40b112-3721-497b-97a3-5e3b7aab0f3f.JPG)
+
+  
+  
+    **Q50**
+:ferris_wheel: 
+  
+  ![Multix_](https://user-images.githubusercontent.com/54834769/213207473-12c5b48e-aba3-4ebf-8c75-5f8184ca3883.JPG)
+  
+  
+    **Q51**
+:ferris_wheel:
+  
+  ![question](https://user-images.githubusercontent.com/54834769/213208308-f5052653-a96f-4565-be8e-67bf5a03cd92.JPG)
+
+  
+    **Q52**
+:ferris_wheel: What is the difference between a decoder and a multiplexor? Explain with example and their block diagrams.
+  
+  
+  ![decoder](https://user-images.githubusercontent.com/54834769/213208825-06d3e5fa-38f8-456a-8194-a391cbfe6935.JPG)
+
+
+  A multiplexer is a device which allows one of a number of inputs to be routed to a single output. Here is a 4-1 multiplexer.
+  
+  ![mux](https://user-images.githubusercontent.com/54834769/213208879-307471b2-8c9a-4ff6-8bd2-7791d1583e08.JPG)
+
+    
+    **Q53**
+:ferris_wheel: Name two RISC and two CISC processors. What are the main characteristics of RISC processors?
+  
+ANS: 
+  
+  
+    **Q54**
+:ferris_wheel:  Define (i) superscalar and (ii) super-pipeline concepts. Derive the equation for ideal speedup for a superscalar super-pipelined processor compared to a sequential processor. Assume N instructions, k-stage scalar base pipeline, superscalar degree of m, and superpipeline degree of n.
+ANS: 
+  
+  
+  
+    **Q55**
+  :ferris_wheel: 
+  
+a) What is the difference between computer architecture and computer organization?
+  
+b) What are the two locality principles observed with respect to user programs? How are these principles exploited in computer design?
+  
+c) What is virtual memory? Explain the need for virtual memory.
+  
+d) What are the main differences between a multi-processor system and a multi-computer system?
+  
+e) In a shared memory system, explain two schemes to maintain cache-coherence.
+  
+  
+  **Q56**
+  :ferris_wheel:
+  
+  ![CPI#2](https://user-images.githubusercontent.com/54834769/213210259-c66c093b-15a7-40f1-b28c-956751a55d62.JPG)
+
+  
+  **Q57**
+  :ferris_wheel: 8. RISC CPU Design:
+Design a (very) simple CPU for an instruction set that contains only the following four instructions: lw (load word), sw (store word), add, and jump (unconditional branch). Assume that the instruction formats are similar to the MIPS architecture. If you assume a different format, state the instruction formats. Show all the components, all the links, and all the control signals in the datapath. You must show only the minimal hardware required to implement these four instructions. For each instruction show the steps involved and the values of the control signals for a single cycle implementation. 
+  
+  
+  
+  
+  **Q58**
+  :ferris_wheel: 
+  
+  **Q59**
+  :ferris_wheel: 
+  
+  
+  **Q60**
+  :ferris_wheel: 
+  
+  
+  **Q61**
+  :ferris_wheel: 
+  
+  
+  
 </details>
 
 <a href="#top">Back to top</a>
