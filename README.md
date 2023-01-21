@@ -62,6 +62,37 @@ Step by Step\
 
 
 ## :sparkler: Linkler ##
+
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Title 2</b></td>
+ </tr>
+ <tr>
+   <td>[Forest](https://www.forestapp.cc/) (stay away from phone)</td>
+   <td>[Zotero](https://www.zotero.org/) (Mendeley benzeri)</td>
+ </tr>
+  <tr>
+   <td>[Endnote](https://endnote.com/) (reference management tool)</td>
+   <td>[Genei](https://www.genei.io/) (summarisation & research tool)</td>
+ </tr>
+  <tr>
+   <td>[Jenni](www.jenni.ai) (autocomplete)</td>
+   <td>[Scrambly](https://www.scrambly.io) (earn rewards from apps)</td>
+  </tr>
+  <tr>
+   <td>[contentideas](https://www.contentideas.io) (top performing context)</td>
+   <td>[pixelhunter](https://www.pixelhunter.io) (image getter)</td>
+  </tr>
+  <tr>
+   <td>[namelix](https://www.namelix.com) (generate business names)</td>
+ </tr>
+</table>
+
+-----------------------------------------------------------
+
+
    Link 1: [Decoding Grounded Theory for Software Engineering](https://www.youtube.com/watch?v=k980eEJKKvU) -  Rashida Hoda 2021
    
    Literatürde 3 çeşit GT versiyonu vardır.
