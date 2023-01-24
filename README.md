@@ -55,7 +55,7 @@ $ git clone https://github.com/otahsinb/GAZIEECS_Qua_Lecs
 $ cd GAZIEECS_Qua_Lecs
 
 # Run the project
-$ python xxx.py
+
 ```
  
 :heavy_check_mark: Dersler ve Konu Başlıkları \
