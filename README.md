@@ -57,20 +57,12 @@ $ cd GAZIEECS_Qua_Lecs
 # Run the project
 $ python xxx.py
 ```
-
-If you do not compile to\
-
-You can build this with the following command:
-> python setup.py build_ext --inplace
  
- First there's [here](https://pyob.oxyry.com/) but purchasing it c junk code and custom encryption, and includes the obfuscation found in Carbon.
 :heavy_check_mark: Dersler ve Konu Başlıkları \
 :heavy_check_mark: Linkler \
 :heavy_check_mark: Kullanışlı Araçlar\
 :heavy_check_mark: Sınavlar\
 :heavy_check_mark: Notlar
-
-
 
 
 ## :sparkler: 01 Veri Yapıları ##
