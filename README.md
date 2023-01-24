@@ -64,6 +64,7 @@ $ cd GAZIEECS_Qua_Lecs
 :heavy_check_mark: Sınavlar\
 :heavy_check_mark: Notlar
 
+<a href="#top">Back to top</a>
 
 ## :sparkler: 01 Veri Yapıları ##
  
