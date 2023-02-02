@@ -1011,7 +1011,7 @@ Design a (very) simple CPU for an instruction set that contains only the followi
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 
-Made with :heart: by <a href="https://github.com/otahsinb" target="_blank">otahsinb</a>
+Made with :speech_balloon: by <a href="https://github.com/otahsinb" target="_blank">otahsinb</a>
 
 &#xa0;
 
