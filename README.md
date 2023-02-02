@@ -54,3 +54,44 @@ http://narakeet.com
 
 8- Taplio : Yapay zekayı kullanarak gönderi fikirleri oluşturun, Zamanlayın, Performansı Analiz Edin ve kitlenizi oluşturun.
 http://taplio.com
+
+******************
+
+1- Sourcery: Automated code refactoring to make code clearer and concise.
+Link: https://bit.ly/py-sourcery
+
+2- Bashplotlib: Draw plots in the terminal.
+Link: https://bit.ly/bshplt
+
+3- Livepython: Watch your Python code run like a movie.
+Link: https://bit.ly/live-py
+
+4- PyQRCode: Convert any text/URL/Image to a QR code.
+Link: https://bit.ly/qrpy
+
+5- PyWhatKit: Automate sending messages on WhatsApp.
+https://bit.ly/wtsappy
+
+6- Pytube: Download YouTube videos.
+Link: https://bit.ly/pyutube
+
+7- Rembg: Remove background from images.
+Link: https://bit.ly/rem-bg
+
+8- Grip: Preview the README file locally as it will appear on GitHub.
+Link: https://bit.ly/grip-py
+
+9- Camelot: Extract tables from PDFs. Especially useful for complex tables.
+Link: https://bit.ly/pycamelot
+
+10- Humanize: Turn a number into words, and many more.
+Link: https://bit.ly/py-humanize
+
+11- textstat: Get stats for text data such as word count, reading time.
+Link: https://bit.ly/py-textstat
+
+12- Panel: Create interactive data dashboards and applications.
+Link: https://bit.ly/py-panel
+
+13- Panel: Create interactive data dashboards and applications.
+Link: https://bit.ly/py-panel
