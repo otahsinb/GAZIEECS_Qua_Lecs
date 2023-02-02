@@ -92,6 +92,3 @@ Link: https://bit.ly/py-textstat
 
 12- Panel: Create interactive data dashboards and applications.
 Link: https://bit.ly/py-panel
-
-13- Panel: Create interactive data dashboards and applications.
-Link: https://bit.ly/py-panel
