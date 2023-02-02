@@ -153,7 +153,35 @@ $ cd GAZIEECS_Qua_Lecs
     ├── 
     └── 
 
+
+
+<details>
+  
+  <summary> Notlar </summary> <br />
+  
+
+
+ :dizzy: :dizzy: Uç sistemler birbirine iletişim linkleri ve paket anahtarlar ile bağlanır. Farklı iletişim linkleri farklı iletim oranına (transmission rate) sahiptir (bps). Gönderici veriyi parçalara böler, her parçaya başlık bilgisi ekler. Elde edilen veri parçasına paket denir. 
+  
+  :dizzy: :dizzy: Paket anahtar veriyi bir girişten alır, başka çıkışa yönlendirir. İnternet’te, paket anahtar olarak router ve link-layer switch kullanılır. Link-layer switch erişim ağlarında (access networks), router ağın temel (network core) kısmında kullanılır. Bir paket, göndericiden alıcıya bir dizi linki (route, path) kullanarak ulaşır. Uç sistemler, İnternet Servis Sağlayıcı (İSS) üzerinden İnternet’e bağlanır. Uç sistemlerde, paket anahtarlarda ve diğer bileşenlerde veri göndermek ve almak için protokol çalıştırılır.
+  
+  :dizzy: :dizzy: Transmission Control Protocol (TCP) ve Internet Protocol (IP), İnternet’teki en önemli iki protokoldür. İnternet’te kullanılan protokol kümesi TCP/IP olarak adlandırılır. Birbiriyle çalışabilen sistemler oluşturmak için standartlar gereklidir. İnternet standartları Internet Engineering Task Force (IETF) tarafından geliştirilir. IETF standartları Request For Comments (RFCs) olarak adlandırılır. Institute of Electrical and Electronics Engineers (IEEE) 802 LAN/MAN standart grubu Ethernet ve Wi-Fi standartlarını belirler. 
+  
+  :dizzy: :dizzy: Uç sistemler, Application Programming Interface (API) kullanılarak, Java, C++, Phyton gibi yüksek seviyeli dillerle geliştirilir. İnternet API, veriyi gönderme, taşıma ve alıcı tarafından alınması ile ilgili kurallar kümesidir. 
+  
+  :dizzy: :dizzy: Ağ protokolleri, insanların kullandığı protokollere benzer. İnternet’teki tüm iletişim protokollerle yapılır. Karşılıklı iletişim yapan birimler aynı protokolü kullanmalıdır. Donanımsal (hardware-implemented) protokoller ağ arayüz (network interface) kartlarında bulunur ve iki bilgisayar arasında bit akışını gerçekleştirir. Ağ protokolleri, tıkanıklık denetimi (host), akış denetimi (host), sıralama (host), paketlerin izleyeceği yolun belirlenmesi (router) gibi tüm işleri yapar. 
+  
+  :dizzy: :dizzy: Bir protokolün üç bileşeni var: syntax, semantic, timing. İki veya daha fazla birim arasında gönderilen mesajların formatını ve sırasını tanımlar. Bir mesaj gönderildiğinde/alındığında ne yapılacağını belirler. Bir mesajın cevabı bekleniyor ve gelmediyse ne yapılacağını belirler. İletişim kaynağının maksimum verimle kullanılması için gerekli düzenlemeleri yapar. 
+  
+  :dizzy: :dizzy: İnternet uç sistemleri, çok sayıda heterojen cihazı içerir. Uygulama programları uç sistemler (host) üzerinde çalışır. İnternet’te iki tür host vardır: İstemci (Client) ve Sunucu (Server). 
+  
+  :dizzy: :dizzy: Erişim ağı, uç sistemi ilk router’a (edge router) bağlayan ağdır. Erişim ağları, uç sistemleri ilk router’a bağlayan linkleri ve altyapıyı sağlar. Erişim ağları, konut erişimi, kurumsal erişim veya kablosuz erişim için kullanılır. 
+  
+  :dizzy: :dizzy: Konutlardan genişbant erişim çoğunlukla Digital Subcriber Line (DSL) ve Cable ile yapılmaktadır. DSL ile erişimde telefon şirketi İnternet servis sağlayıcısıdır. Konuttaki DSL modem, telco’da (telephone company) bulunan DSLAM (Digital Subscriber Line Access Multiplexer) ile veri alışverişi yapar. Çok sayıda konuttan gelen analog sinyaller DSLAM’de sayısal formata dönüştürülür. 
+
 <a href="#top">Back to top</a>
+
+</details>
 
 ## :art: 05 Işletim Sistemleri ##
 
