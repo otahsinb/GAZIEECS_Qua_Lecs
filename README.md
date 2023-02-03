@@ -159,8 +159,6 @@ $ cd GAZIEECS_Qua_Lecs
   
   <summary> Notlar </summary> <br />
   
-
-
  :dizzy: :dizzy: Uç sistemler birbirine iletişim linkleri ve paket anahtarlar ile bağlanır. Farklı iletişim linkleri farklı iletim oranına (transmission rate) sahiptir (bps). Gönderici veriyi parçalara böler, her parçaya başlık bilgisi ekler. Elde edilen veri parçasına paket denir. 
   
   :dizzy: :dizzy: Paket anahtar veriyi bir girişten alır, başka çıkışa yönlendirir. İnternet’te, paket anahtar olarak router ve link-layer switch kullanılır. Link-layer switch erişim ağlarında (access networks), router ağın temel (network core) kısmında kullanılır. Bir paket, göndericiden alıcıya bir dizi linki (route, path) kullanarak ulaşır. Uç sistemler, İnternet Servis Sağlayıcı (İSS) üzerinden İnternet’e bağlanır. Uç sistemlerde, paket anahtarlarda ve diğer bileşenlerde veri göndermek ve almak için protokol çalıştırılır.
@@ -179,10 +177,61 @@ $ cd GAZIEECS_Qua_Lecs
   
   :dizzy: :dizzy: Konutlardan genişbant erişim çoğunlukla Digital Subcriber Line (DSL) ve Cable ile yapılmaktadır. DSL ile erişimde telefon şirketi İnternet servis sağlayıcısıdır. Konuttaki DSL modem, telco’da (telephone company) bulunan DSLAM (Digital Subscriber Line Access Multiplexer) ile veri alışverişi yapar. Çok sayıda konuttan gelen analog sinyaller DSLAM’de sayısal formata dönüştürülür. 
 
+  :dizzy: :dizzy: Fiber to the home (FTTH) yüksek hızda erişim (Gbps) sağlar. Active Optical Network (AON) ve Passive Optical Network (PON) mimarileri kullanılmaktadır. AON mimarisinde yönlendirme için layer 2 veya layer 3 switch kullanılır. PON mimarisinde pasif eleman (splitter) kullanılır. PON mimarisinde her konutta Optical Network Terminator (ONT) kullanılır. 
+  
+  :dizzy: :dizzy: DSL, Cable veya FTTH erişimi olmayan konutlarda uydu üzerinden erişim sağlanabilmektedir. İnternet erişim hızı 1 Mbps’tan daha yüksek olmaktadır. Konuttaki bilgisayar uydu modem ile İnternet’e bağlanır. StarBand ve HughesNet uydu erişim sağlayıcılarıdır. 
+  
+  :dizzy: :dizzy: Firmalarda, kampüslerde, hatta konutlarda Local Area Network (LAN) erişim ağı olarak kullanılmaktadır. Ethernet en yaygın kullanılan erişim ağı LAN teknolojisidir. Kullanıcı büklümlü çift (twisted-pair) kablo ile switch’e bağlanır. 100 Mbps, 1 Gbps, 10 Gbps hızları sağlanabilmektedir. 
+  
+  :dizzy: :dizzy: Mobil cihazlarda kablosuz yerel alan ağları (Wireless LAN) ile İnternet erişimi giderek yaygınlaşmaktadır. WLAN’larda kullanıcılar bir erişim noktasına bağlanır (genellikle uzaklık < 100m). WLAN erişimi IEEE 802.11 (WiFi) teknolojisini kullanır. WiFi erişimi maksimum 54 Mbps hızındadır. Çoğu konutta DSL modem ile WiFi birlikte kullanılır. 
+  
+  :dizzy: :dizzy: Büklümlü çift kablo: En ucuz ve en yaygın kullanılan iletim ortamıdır. Unshielded Twisted Pair (UTP), LAN’larda en yaygın kullanılan türdür. Shielded Twisted Pair (STP), dışında metal kılıf bulundurur ve gürültüden daha az etkilenir. Dial-up ve DSL teknolojileri büklümlü çift kablo kullanır. 
+  
+  :dizzy: :dizzy: Koaksiyel kablo: Büklümlü çift kablo gibi, iki bakır iletkene sahiptir. Koaksiyel kablo daha yüksek iletim hızını sağlar. Kablo TV sistemlerinde ve cable erişim ağları ile İnternet bağlantısında kullanılır. 
+  
+  :dizzy: :dizzy: Fiber optik: Fiber optik, ışık palslerini iletir. 100 Gbps’ten büyük hızları sağlar. Uzak mesafelerde kıtalararası (long-haul) iletim ortamı olarak kullanılır. 
+  
+  :dizzy: :dizzy: Karasal radyo kanalları: Karasal radyo kanalları (terrestrial radio channels), fiziksel bir kablo kurulumuna ihtiyaç duymadıkları için giderek yaygınlaşmaktadır. Mobil kullanıcıların iletişimini sağlar. 
+  
+  :dizzy: :dizzy: Uydu radyo kanalları: Bir iletişim uydusu, iki veya daha fazla yer istasyonu (earthbased station) arasında gönderici ve alıcıyı birbirine bağlar. Genel olarak yörünge yüksekliğine göre 3 tür uydu ile iletişim yapılmaktadır:  Geostationary earth orbit (GEO), Medium earth orbit (MEO), Low-earth orbit (LEO). Bir uydu linki 100 Mbps’ten büyük hızları sağlar. 
+  
+  :dizzy: :dizzy: Ağın çekirdek kısmı (network core ): İnternet’in uç sistemlerini birbirine bağlar. Ağın temel elemanları iki tür bileşenden oluşur: 1- Paket anahtar (router) 2- Bağlantı (link). Linkler ve anahtarlardan oluşan ağda verinin iletilmesi için iki temel yaklaşım vardır: i- Paket anahtarlama ii- Devre anahtarlama.
+  
+  :dizzy: :dizzy: Paket anahtarlama: Bir ağ uygulamasında uç sistemler arasında mesajlar aktarılır. Uzun mesajlar, parçalara (paket) bölünerek iletilir. Bir paket kaynak ile hedef arasında anahtarlar (router, linklayer switch) kullanılarak iletilir. Bir paketin boyutu L bit ise, iletim oranı (transmission rate) R bps ise, L/R saniyede paket kaynaktan gönderilir. Paket anahtarlamada (packet switching) anahtarlar iki tür gönderim yapabilir: 1. Store and forward 2. Cut-through.
+  
+  :dizzy: :dizzy: Store and forward gönderimde, anahtar önce paketin tamamını belleğe alır (store) ve ardından gönderir (forward). Bir router, giriş linkinden gelen paketi çıkış linklerinden birine yönlendirir. Cut-through gönderimde, gelen paketin adres kısmı alınınca hemen göndermeye başlanır tamamının gelmesi beklenmez. Cut-through ile hatalı paketler düğümlerde belirlenemez hedefte belirlenir.
+  
+  :dizzy: :dizzy: Paket anahtarlarda her çıkış linkinde output buffer vardır. Bir linke yönlendirilen paket, buffer’ın sonuna eklenir. Buffer’da başa gelene kadar kuyruk gecikmesi (queuing delay) meydana gelir. Kuyruk boş ise gecikme olmaz, kuyruk dolu ise paket atılır (packet loss). 
+  
+  :dizzy: :dizzy: İnternet’te her host bir IP (Internet Protocol) adresine sahiptir. Gönderici pakete alıcının IP adresini ekler. IP adresi hiyerarşik bir yapıya sahiptir. Router bir paket geldiğinde, hedef IP adresine göre komşu router’lardan birine gönderir. Her router bir yönlendirme tablosuna (forwarding table) sahiptir. Yönlendirme tablosu hedef adres ile router’ın çıkış portlarını eşleştirir. Yönlendirme protokolleri (routing protocols), yönlendirme tablosunu otomatik olarak oluşturur ve günceller. 
+  
+  :dizzy: :dizzy: Devre anahtarlamada (circuit switching), iletişim süresince kaynaklar host’lara ayrılır paylaşım yapılmaz. Devre anahtarlamada kaynaklar sadece paket için ayrılır. Klasik telefon ağları devre anahtarlamalı çalışır. İnternet paket anahtarlamalı çalışır. 
+  
+  :dizzy: :dizzy: Çoğullama (multiplexing) iki şekilde yapılabilir: 1. Frekans bölmeli çoğullama (frequency division multiplexing-FDM) 2. Zaman bölmeli çoğullama (time division multiplexingTDM). FDM ile linkteki spektrum frekansa göre parçalara (kanal) bölünür. TDM ile link zamana göre parçalara (frame) bölünür. Frame içindeki her slot iki host arasındaki bir iletişime ayrılır. Devre anahtarlamalı ağların en büyük dezavantajı kaynakları verimsiz kullanmasıdır. Devre anahtarlamalı ağlar veri iletişimine başlamadan önce yol kurulumu yapar. Devre anahtarlamalı ağlarda veri iletişimi daha hızlıdır.
+  
+  :dizzy: :dizzy: Devre anahtarlama: Host A ile Host B arasında devre anahtarlamalı ağ üzerinden 640.000 bit gönderilecektir. Ağdaki tüm bağlantılar 24 slot ile TDM kullanmaktadır ve bit oranı 1.536 Mbps. Uçtan uca devre kurulumu 0.5 s’de yapılmaktadır. Dosyanın gönderilmesi için gereken süre ne kadardır? 
+  
+  ![Devre_An_Soru1](https://user-images.githubusercontent.com/54834769/216533446-2cfb0348-3905-41f9-9cd4-7418efda73c2.JPG)
+  
+  :dizzy: :dizzy: Kullanıcılar 1 Mbps bir bağlantıyı paylaşmaktadır. Her kullanıcı 10 kbps sabit veri oranına sahiptir. Kullanıcılar zamanının %10’unda veri iletişimi yapmaktadır. TDM ile bir saniyede 10 slot oluşturularak eşzamanlı 10 kullanıcı iletişim yapabilir (1 Mbps/10=100 kbps).
+  
+  ![Devre_An_Soru2](https://user-images.githubusercontent.com/54834769/216533653-3d6ac848-883b-40e1-a8c6-22ece48f7456.JPG)
+  
+  :dizzy: :dizzy: Paket anahtarlamada, bir kullanıcının aktif olma olasılığı 0,1’dir. Toplam 35 kullanıcı olursa, aynı anda 11 ve daha fazla kullanıcının aktif olma olasılığı 0.0004’ten küçüktür (~0,000333). 10 ve daha az kullanıcının aynı anda aktif olma olasılığı 0.9996’dan büyüktür. 10 ve daha az kullanıcı eşzamanlı aktif olduğunda kuyruk gecikmesi olmaz. 10’dan daha fazla kullanıcının eşzamanlı aktif olması durumunda çıkış kuyruğu büyümeye başlar. 10 kullanıcıya kadar paket anahtarlama ile devre anahtarlamada eşit performans elde edilir. Paket anahtarlamalı ağlarda daha fazla kullanıcı aynı anda iletişim yapabilir.
+
+  
+  :dizzy: :dizzy: Uç sistemler İSS’lar aracılığıyla İnternet’e bağlanır. İSS, kablosuz veya kablolu bağlantı sağlar (Dial-up, DSL, cable, FTTH, WiFi, hücresel). İSS’ler de kendi aralarında bağlanırlar ve büyük ağ yapısını oluştururlar (ağların ağı). İSS’ler katmanlı yapıya sahiptir. Tier-1 İSS’ler global veri akışını sağlar ve her ilde veya ülkede bulunmaz (AT&T, Sprint). Tier-2’de bölgesel İSS’ler bulunur ve tier-1 İSS’lere bağlıdır. Tier-3’te erişim İSS’leri vardır ve tier-2 İSS’lere bağlıdır. Erişim İSS’leri bölgesel İSS’lere ödeme yapar. Bölgesel İSS’ler tier-1 İSS’lere ödeme yapar. 
+  
+  :dizzy: :dizzy: İnternet’te, points of presence (PoPs), multi-homing, peering ve Internet exchange points (IXP) bulunmaktadır. PoPs, erişim İSS’leri hariç diğer İSS’lerde bulunur. Bir PoP, müşteri İSS’leri sağlayıcı İSS’e bağlayan çok sayıda router’dan oluşur. Tier-1 İSS’ler hariç diğer İSS’ler birden fazla sağlayıcı İSS’e bağlanabilir (multi-home). Bir erişim İSS’i, birden fazla bölgesel İSS ve tier-1 İSS’e bağlanabilir. Aynı düzeydeki İSS’ler kendi aralarında bağlantı yapabilir (peering). Bir üçüncü parti firma çok sayıda İSS’in birbiriyle bağlantısı için çok sayıda switch bulunan bir nokta oluşturabilir (IXP). İnternet’te günümüzde 300 civarında IXP bulunmaktadır. 
+  
+  :dizzy: :dizzy: İnternet’te, içerik sağlayıcı (content provider) ağlar vardır. Google’ın 30-50 arasında data center’ı bulunmaktadır. Data center’lar Google’ın private TCP/IP ağıyla birbirine bağlıdır. Google, üst katmandaki İSS’leri bypass ederek alt katmandaki İSS’lere doğrudan veya IXP’ler aracılığyla bağlanabilir. 
+    
 <a href="#top">Back to top</a>
 
 </details>
 
+<a href="#top">Back to top</a>
+  
 ## :art: 05 Işletim Sistemleri ##
 
     .
