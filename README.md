@@ -226,7 +226,66 @@ $ cd GAZIEECS_Qua_Lecs
   
   :dizzy: :dizzy: İnternet’te, içerik sağlayıcı (content provider) ağlar vardır. Google’ın 30-50 arasında data center’ı bulunmaktadır. Data center’lar Google’ın private TCP/IP ağıyla birbirine bağlıdır. Google, üst katmandaki İSS’leri bypass ederek alt katmandaki İSS’lere doğrudan veya IXP’ler aracılığyla bağlanabilir. 
     
-<a href="#top">Back to top</a>
+----------------------------------
+
+:dizzy: :dizzy: Gecikme: Bir paket bir host’tan (kaynak-source) yola çıkar, çok sayıda router’dan geçer ve en sonunda başka bir host’ta (hedefdestination) yolculuğu biter. Bir paket bir düğümden (router veya host) komşu bir düğüme (router veya host) giderken yolu üzerindeki her düğümde farklı gecikmeyle (delay) karşılaşır. İnternet uygulamalarının servis kalitesi ağdaki gecikmelerden etkilenir. Paket anahtarlamalı ağlardaki gecikmeler: 1. Nodal processing delay 2. Queuing delay 3. Transmission delay 4. Propagation delay.
+
+:dizzy: :dizzy: Bir paket router A’ya geldiğinde başlık bilgilerine bakılarak uygun çıkış bağlantısı seçilir. Router A’nın çıkış bağlantısında bekleyen paketler varsa kuyruğa (buffer) eklenir. Processing delay (işlem gecikmesi), paketin başlık bilgisine bakılarak çıkış portunun belirlenmesi ve diğer işlemler için geçen süredir. İşlem gecikmesi, bit seviyesinde hata kontrolü için geçen süreyi de içerir. Queuing delay (kuyruk gecikmesi), paketin çıkış bağlantısından gönderilmek için kuyruğun başına gelmesi için geçen süredir. Kuyruk gecikmesi, seçilen çıkış portunda bekleyen paket sayısına bağlıdır. Bekleyen paket yoksa kuyruk gecikmesi olmaz. Kuyruk gecikmesi, mikrosaniye ile milisaniye arasındadır. Transmission delay (iletim gecikmesi), bir paketin tamamının iletim ortamına verilebilmesi için geçen süredir. Bir paketin tamamı router’a alındıktan sonra iletilir (store-andforward). Bir paketin toplam boyutu L bit ve router A ile router B arasındaki bağlantının iletim oranı R bps ise, Transmission delay = L/R saniyedir. İletim gecikmesi, bant genişliği ve paket boyutuna göre mikrosaniye ile milisaniye aralığındadır. 
+
+:dizzy: :dizzy: Propagation delay (yayılım gecikmesi), bir bitin bağlantının bir ucundan diğer ucuna ulaşması için geçen süredir. Yayılım gecikmesi, iletim ortamına (fiber optik, büklümlü çift kablo, atmosfer, vs.) bağlıdır. Sinyalin yayılım hızı iletim ortamına bağlıdır ve 2x108 m/s ile 3x108 m/s arasındadır. Propagation delay, sinyalin iletim ortamındaki yayılım hızı (s) ile mesafeye (d) bağlıdır (distance - m, speed - m/s). Propagation delay = d/s saniyedir. Wide-area network’lerde milisaniye düzeyindedir.
+
+![Gecikme](https://user-images.githubusercontent.com/54834769/216928565-998ad51c-43ba-4ddb-80cd-e611cbb136ff.JPG)
+
+![Gecikme2](https://user-images.githubusercontent.com/54834769/216928723-2884ecec-be78-4389-96d2-098f97c61984.JPG)
+
+:dizzy: :dizzy: Kuyruk gecikmesi ve paket kaybı: Boş bir kuyruğa 10 paket gelirse, ilk paket gecikme olmadan gönderilir, ancak sonuncu pakete kadar her paket için gecikme artarak devam eder. Kuyruk gecikmesi, paketlerin kuyruğa geliş trafiği, bağlantının iletim oranı ve trafiğin karakteristiğine (periyodik veya burst) bağlıdır. a, paketlerin kuyruğa ortalama geliş oranını (adet/sn) göstersin. L, paketlerin bit olarak uzunluğunu (bit) göstersin. R, iletim oranı ve kuyruktan çıkan bit sayısını göstersin (bps). Kuyruğa saniyede gelen bit sayısı La bps olur. Trafik yoğunluğu La/R şeklinde ifade edilir. Gerçek uygulamalarda paketlerin kuyruğa gelişi rastgeledir.
+
+:dizzy: :dizzy: Eğer La/R > 1 olursa, kuyruğa gelen bit sayısı kuyruktan ayrılan bit sayısından büyüktür. Eğer kuyruk uzunluğu sınırsız olursa, paketlerin kuyruk gecikme süresi sonsuza doğru artarak devam eder. Eğer kuyruk uzunluğu sınırlı olursa, bir süre sonra gelen paketler atılmaya başlar. Eğer La/R ≤ 1 olursa kuyruğa gelen bit sayısı kuyruktan ayrılan bit sayısından küçük veya eşittir. Eğer paketler periyodik olarak L/R sn aralıklarla gelirse kuyruk gecikmesi olmaz (boş ise).\
+L = 10bit, R = 20bps iken, 10/20 sn = 0,5sn aralıklarla gelir.
+
+:dizzy: :dizzy: Eğer paketler periyodik ancak burst şeklinde gelirse, (paketler (L/R) süre aralıklardan daha kısa sürelerde gelirse), ilk pakette gecikme olmaz sonrakilerde gecikme artarak devam eder. Kuyruklar sınırlı kapasiteye sahiptir. Kuyruk boyutu, router tasarımına ve maliyete bağlıdır. Paket tamamen dolu bir kuyruğa gelirse, saklamak için yer olmadığından paket atılır (loss). Trafik yoğunluğu arttıkça paket kayıp oranı artar. Bir node için performans, paket gecikmesinin yanı sıra paket atılma olasılığıyla da değerlendirilir. 
+
+:dizzy: :dizzy: Uçtan uca gecikme (end-to-end delay), kaynak ile hedef arasında izlenen yol üzerinde bulunan router sayısına bağlıdır. Ağda tıkanıklık olmadığı varsayılırsa (kuyruk gecikmesi ihmal edildiğinde) uçtan uca gecikme aşağıdaki gibi ifade edilir. 
+
+![Gecikme_uctan_uca](https://user-images.githubusercontent.com/54834769/216930145-01394bbb-37f8-4030-9078-86ceed0770bd.JPG)
+
+Burada N yol üzerindeki router sayısını göstermektedir. Katmanlarda oluşan gecikmeler (modülasyon, kodlama, paket oluşturma süresi) uçtan uca gecikmeyi önemli oranda artırabilir. 
+
+:dizzy: :dizzy: Bilgisayar ağlarında, gecikme ve paket kayıplarının yanı sıra önemli bir performans ölçütü uçtan uca throughput değeridir. Host A ile Host B arasında bir dosya transferi yapıldığını varsayalım. Anlık throughput, herhangi bir anda Host B’nin dosyayı alma oranıdır (bps). Ortalama throughput, dosyanın toplam boyutunun (L) toplam transfer süresine (T) oranıdır ve L/T şeklinde gösterilir. Bazı uygulamalarda, düşük gecikme ve belirli bir eşik değerin üstünde sabit throughput (İnternet telefon için 24 kbps, real-time video 256 kbps) istenir. Dosya transferi gibi uygulamalarda gecikme kritik değildir, ancak olabildiği kadar yüksek throughput değeri istenir. İki host arasında veri aktarımı yapılırken, kurulan yol üzerinde en düşük transmission oranına sahip link iletişimin throughput değerini belirler. 
+
+![Thoughput](https://user-images.githubusercontent.com/54834769/216930936-e84cd525-23f0-449b-9146-c6be1b1078c4.JPG)
+
+Eğer server ile client arasında N tane link varsa, throughput değeri min(R_1 , R_2 , ... , R_N) olur. L bit boyutundaki dosyanın transfer süresi, L/min(R_1 , R_2 , ... , R_N) olur.
+
+![Thoughput_soru](https://user-images.githubusercontent.com/54834769/216931526-23d0eb81-b9c1-4f71-8308-4d64867fd3b2.JPG)
+
+:dizzy: :dizzy: 
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+
 
 </details>
 
