@@ -211,11 +211,11 @@ $ cd GAZIEECS_Qua_Lecs
   
   :dizzy: :dizzy: Devre anahtarlama: Host A ile Host B arasında devre anahtarlamalı ağ üzerinden 640.000 bit gönderilecektir. Ağdaki tüm bağlantılar 24 slot ile TDM kullanmaktadır ve bit oranı 1.536 Mbps. Uçtan uca devre kurulumu 0.5 s’de yapılmaktadır. Dosyanın gönderilmesi için gereken süre ne kadardır? 
   
-  ![Devre_An_Soru1](https://user-images.githubusercontent.com/54834769/216533446-2cfb0348-3905-41f9-9cd4-7418efda73c2.JPG)
-  
+  <img src="https://user-images.githubusercontent.com/54834769/216533446-2cfb0348-3905-41f9-9cd4-7418efda73c2.JPG" width="500" />
+   
   :dizzy: :dizzy: Kullanıcılar 1 Mbps bir bağlantıyı paylaşmaktadır. Her kullanıcı 10 kbps sabit veri oranına sahiptir. Kullanıcılar zamanının %10’unda veri iletişimi yapmaktadır. TDM ile bir saniyede 10 slot oluşturularak eşzamanlı 10 kullanıcı iletişim yapabilir (1 Mbps/10=100 kbps).
   
-  ![Devre_An_Soru2](https://user-images.githubusercontent.com/54834769/216533653-3d6ac848-883b-40e1-a8c6-22ece48f7456.JPG)
+  <img src="https://user-images.githubusercontent.com/54834769/216533653-3d6ac848-883b-40e1-a8c6-22ece48f7456.JPG" width="400" />
   
   :dizzy: :dizzy: Paket anahtarlamada, bir kullanıcının aktif olma olasılığı 0,1’dir. Toplam 35 kullanıcı olursa, aynı anda 11 ve daha fazla kullanıcının aktif olma olasılığı 0.0004’ten küçüktür (~0,000333). 10 ve daha az kullanıcının aynı anda aktif olma olasılığı 0.9996’dan büyüktür. 10 ve daha az kullanıcı eşzamanlı aktif olduğunda kuyruk gecikmesi olmaz. 10’dan daha fazla kullanıcının eşzamanlı aktif olması durumunda çıkış kuyruğu büyümeye başlar. 10 kullanıcıya kadar paket anahtarlama ile devre anahtarlamada eşit performans elde edilir. Paket anahtarlamalı ağlarda daha fazla kullanıcı aynı anda iletişim yapabilir.
 
@@ -234,9 +234,9 @@ $ cd GAZIEECS_Qua_Lecs
 
 :dizzy: :dizzy: Propagation delay (yayılım gecikmesi), bir bitin bağlantının bir ucundan diğer ucuna ulaşması için geçen süredir. Yayılım gecikmesi, iletim ortamına (fiber optik, büklümlü çift kablo, atmosfer, vs.) bağlıdır. Sinyalin yayılım hızı iletim ortamına bağlıdır ve 2x108 m/s ile 3x108 m/s arasındadır. Propagation delay, sinyalin iletim ortamındaki yayılım hızı (s) ile mesafeye (d) bağlıdır (distance - m, speed - m/s). Propagation delay = d/s saniyedir. Wide-area network’lerde milisaniye düzeyindedir.
 
-![Gecikme](https://user-images.githubusercontent.com/54834769/216928565-998ad51c-43ba-4ddb-80cd-e611cbb136ff.JPG)
+<img src="https://user-images.githubusercontent.com/54834769/216928565-998ad51c-43ba-4ddb-80cd-e611cbb136ff.JPG" width="400" />
 
-![Gecikme2](https://user-images.githubusercontent.com/54834769/216928723-2884ecec-be78-4389-96d2-098f97c61984.JPG)
+<img src="https://user-images.githubusercontent.com/54834769/216928723-2884ecec-be78-4389-96d2-098f97c61984.JPG" width="400" />
 
 :dizzy: :dizzy: Kuyruk gecikmesi ve paket kaybı: Boş bir kuyruğa 10 paket gelirse, ilk paket gecikme olmadan gönderilir, ancak sonuncu pakete kadar her paket için gecikme artarak devam eder. Kuyruk gecikmesi, paketlerin kuyruğa geliş trafiği, bağlantının iletim oranı ve trafiğin karakteristiğine (periyodik veya burst) bağlıdır. a, paketlerin kuyruğa ortalama geliş oranını (adet/sn) göstersin. L, paketlerin bit olarak uzunluğunu (bit) göstersin. R, iletim oranı ve kuyruktan çıkan bit sayısını göstersin (bps). Kuyruğa saniyede gelen bit sayısı La bps olur. Trafik yoğunluğu La/R şeklinde ifade edilir. Gerçek uygulamalarda paketlerin kuyruğa gelişi rastgeledir.
 
@@ -247,17 +247,18 @@ L = 10bit, R = 20bps iken, 10/20 sn = 0,5sn aralıklarla gelir.
 
 :dizzy: :dizzy: Uçtan uca gecikme (end-to-end delay), kaynak ile hedef arasında izlenen yol üzerinde bulunan router sayısına bağlıdır. Ağda tıkanıklık olmadığı varsayılırsa (kuyruk gecikmesi ihmal edildiğinde) uçtan uca gecikme aşağıdaki gibi ifade edilir. 
 
-![Gecikme_uctan_uca](https://user-images.githubusercontent.com/54834769/216930145-01394bbb-37f8-4030-9078-86ceed0770bd.JPG)
+<img src="https://user-images.githubusercontent.com/54834769/216930145-01394bbb-37f8-4030-9078-86ceed0770bd.JPG" width="300" />
 
 Burada N yol üzerindeki router sayısını göstermektedir. Katmanlarda oluşan gecikmeler (modülasyon, kodlama, paket oluşturma süresi) uçtan uca gecikmeyi önemli oranda artırabilir. 
 
 :dizzy: :dizzy: Bilgisayar ağlarında, gecikme ve paket kayıplarının yanı sıra önemli bir performans ölçütü uçtan uca throughput değeridir. Host A ile Host B arasında bir dosya transferi yapıldığını varsayalım. Anlık throughput, herhangi bir anda Host B’nin dosyayı alma oranıdır (bps). Ortalama throughput, dosyanın toplam boyutunun (L) toplam transfer süresine (T) oranıdır ve L/T şeklinde gösterilir. Bazı uygulamalarda, düşük gecikme ve belirli bir eşik değerin üstünde sabit throughput (İnternet telefon için 24 kbps, real-time video 256 kbps) istenir. Dosya transferi gibi uygulamalarda gecikme kritik değildir, ancak olabildiği kadar yüksek throughput değeri istenir. İki host arasında veri aktarımı yapılırken, kurulan yol üzerinde en düşük transmission oranına sahip link iletişimin throughput değerini belirler. 
 
-![Thoughput](https://user-images.githubusercontent.com/54834769/216930936-e84cd525-23f0-449b-9146-c6be1b1078c4.JPG)
+<img src="https://user-images.githubusercontent.com/54834769/216930936-e84cd525-23f0-449b-9146-c6be1b1078c4.JPG" width="400" />
 
 Eğer server ile client arasında N tane link varsa, throughput değeri min(R_1 , R_2 , ... , R_N) olur. L bit boyutundaki dosyanın transfer süresi, L/min(R_1 , R_2 , ... , R_N) olur.
 
-![Thoughput_soru](https://user-images.githubusercontent.com/54834769/216931526-23d0eb81-b9c1-4f71-8308-4d64867fd3b2.JPG)
+<img src="https://user-images.githubusercontent.com/54834769/216931526-23d0eb81-b9c1-4f71-8308-4d64867fd3b2.JPG" width="400" />
+
 
 :dizzy: :dizzy: 
 
