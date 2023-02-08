@@ -260,6 +260,35 @@ Eğer server ile client arasında N tane link varsa, throughput değeri min(R_1 
 <img src="https://user-images.githubusercontent.com/54834769/216931526-23d0eb81-b9c1-4f71-8308-4d64867fd3b2.JPG" width="400" />
 
 
+:dizzy: :dizzy: Application layer’da uygulamalar için geliştirilen protokoller, transport layer protokollerinden servis alırlar. Uygulama geliştirirken ağın temel bileşenlerinde (router, link-layer switch) çalışacak program yazılması gerekmez. Geliştirilen uygulamalar application layer’da yazılır. Uygulama mimarisi, ağ mimarisinden (beş katmanlı İnternet mimarisi, vb.) farklıdır. Uygulama geliştirici için ağ mimarisi sabittir ve uygulamalara bir grup servis sağlar. İki temel ağ uygulama mimarisi vardır: İstemci-sunucu (client-server) mimarisi. P2P (peer-to-peer) mimari.
+
+:dizzy: :dizzy: P2P mimari: Host’lar (peers) birbiriyle doğrudan haberleşir. Yaygın kullanılan P2P uygulamalar: 1. Dosya paylaşımı (BitTorrent) 2. İnternet telefon (Skype) 3. IPTV (PPstream). Bazı uygulamalar hibrit mimariye sahiptir. Anlık mesajlaşma uygulamalarında kullanıcı listesi sunucuda tutulur, mesaj transferi P2P yapılır. P2P uygulamalar yüksek ölçeklenebilirdir (self-scalability). Sorunlar: ISP friendly: ISP’ler konut için asimetrik bant genişliği sağlar. Security: Yüksek dağıtık ve açık olan yapısı güvenli değildir. Incentive: Kullanıcılar kaynak paylaşımı yapmak ve bant genişliği harcamak için istekli olmalıdır.
+
+:dizzy: :dizzy: Process, uç sistemde çalışan programdır. Uç sistemlerde process’ler haberleşir. P2P uygulamada her peer, hem istemci hem de sunucudur. Her process ağa göndereceği veya ağdan alacağı mesaj için soket kullanır. Bir soket uygulama katmanı ile ulaşım katmanı arasında arayüzdür (Application Programming Interface - API). 
+
+:dizzy: :dizzy: Uygulama, transport layer’da seçilen protokolün sağladığı servisi (reliable, unreliable) tümüyle alır. Bir alıcı process; host adresi ve process adresi ile adreslenir. İnternet’te hostlar IP adresleriyle, process’ler port numaralarıyla tanımlanır. Popüler uygulamalar kendilerine ayrılmış port numaralarına (well-known ports) sahiptir (Web 80, SMTP 25, FTP 20 ve 21). Geliştirilen protokol ile istek (request) ve cevap (response) mesajları tanımlanır. 
+
+:dizzy: :dizzy: Ulaşım katmanının uygulama katmanına sağladığı servis türleri: 1. Reliable data transfer 2. Throughput 3. Timing 4. Security
+:dizzy: :dizzy: Reliable data transfer  Bir paket, bit bozulması olduğu için veya buffer dolu olduğu için router veya host’ta atılabilir. Web, e-posta veya dosya transferi gibi uygulamalarda veri kaybı istenmez. Bir protokol verinin hedefe ulaşmasını garanti ederse, buna güvenilir veri aktarımı (reliable data transfer) denir. Ulaşım katmanının sağladığı önemli bir servis türü güvenilir veri aktarımıdır. Ulaşım katmanı protokolü güvenilir servis sağlarsa, gönderici process sadece sokete veriyi gönderir, alıcıda tamamı alınır. Ulaşım katmanı güvenilir servis sağlamazsa, bazı veriler hiçbir zaman alıcıya ulaşmayabilir. Hata toleransına (loss-tolerant) sahip uygulamalar unreliable data transfer kullanır (multimedia).
+
+:dizzy: :dizzy: Throughput gereksinimi olan uygulamalar bandwidthsensitive olarak adlandırılır (real-time multimedia). Bant genişliği hassasiyeti olmayan uygulamalar elastic application olarak adlandırılır (e-posta, file transfer, Web). 
+
+:dizzy: :dizzy: Timing bir bitin alıcıya ulaşması için geçen süreyi ifade eder. Bazı uygulamalar time-sensitive olarak adlandırılır. (IP telefon, telekonferans, çok oyunculu oyunlar). 
+
+:dizzy: :dizzy: İnternet’te TCP ve UDP protokolleri uygulama katmanı verisi için şifreleme servisi sağlamaz. TCP için Secure Sockets Layer (SSL) geliştirilmiştir. SSL uygulama katmanında TCP için geliştirilen ek bir servistir. SSL, veriyi şifreledikten sonra TCP sokete gönderir.
+
+:dizzy: :dizzy: TCP servisleri: 1. Connection-oriented servis; Uygulama mesajları iletilmeye başlamadan önce, TCP process’ler arasında handshake yapar. 2. Reliable data transfer servisi; TCP, process’ler arasında güvenilir iletişim yapar. 3. Flow control; TCP, alıcı tarafın uyarısıyla gönderme hızını kontrol eder. 4 Congestion control; Ağdaki trafik yoğunluğuna göre gönderme hızı düzenlenir.\
+TCP Servislerinin Sağlayamadıkları; Zamanlama/gecikme süresi, Minimum bant genişliği garantisi.
+
+:dizzy: :dizzy: UDP, gönderici ve alıcı process’ler arasında güvenilir olmayan iletişim yapar. UDP, mesajların gitmesini garanti etmez. UDP mesajlarının bir kısmı alıcıya ulaştığında süresi geçmiş olabilir.\
+UDP'nin Sağlamadıkları: Connection setup, Reliability, Flow control, Congestion control, Timing, Minimum bandwidth.
+
+![Protokoller](https://user-images.githubusercontent.com/54834769/217591285-ff003582-6a6d-4fce-b002-a205a3e19bda.JPG)
+
+:dizzy: :dizzy: Uygulama katmanı protokolleri, process’lerin nasıl çalışacağını, birbirlerine mesajları nasıl göndereceğini tanımlar. Bu katmanın protokolleri Mesajların istek ve cevap olarak türlerini belirler (request, response). Mesajların içindeki alanların dizilimini (syntax) belirler. Mesajların içindeki alanların anlamlarını (semantic) belirler. Process’ler arasında mesaj gönderme ve alma kurallarını tanımlar.
+
+--------------------------------------------
+
 :dizzy: :dizzy: 
 
 :dizzy: :dizzy:
@@ -269,10 +298,6 @@ Eğer server ile client arasında N tane link varsa, throughput değeri min(R_1 
 :dizzy: :dizzy:
 
 :dizzy: :dizzy:
-:dizzy: :dizzy:
-
-:dizzy: :dizzy:
-:dizzy: :dizzy:
 
 :dizzy: :dizzy:
 
@@ -286,7 +311,23 @@ Eğer server ile client arasında N tane link varsa, throughput değeri min(R_1 
 
 :dizzy: :dizzy:
 
+:dizzy: :dizzy:
 
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
+
+:dizzy: :dizzy:
 
 </details>
 
