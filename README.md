@@ -289,28 +289,34 @@ UDP'nin Sağlamadıkları: Connection setup, Reliability, Flow control, Congesti
 
 --------------------------------------------
 
-:dizzy: :dizzy: 
+:dizzy: :dizzy: Katmanlı mimari modülerlik sağlar. Bilgisayar ağlarında, her katmanda yazılım ve donanımlar tarafından protokoller çalıştırılır. Her katman, kendisinin altında yer alan katmanın servislerini/protokollerini kullanarak belirli işleri yapar. Uygulama katmanı protokolleri uç sistemlerde oluşturulur (HTTP, SMTP, FTP, …). Fiziksel katman ve veri bağı katmanı protokolleri ağ arayüz kartında (network interface card) oluşturulur. Farklı katmanlardaki tüm protokoller protokol yığını (protocol stack) olarak adlandırılır. 
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: İnternet protokol yığını 5 katmandan oluşur: physical, link, network, transport ve application. OSI (Open System Interconnection) başvuru modeli 7 katmandan oluşur: physical, link, network, transport, session, presentation ve application. 
+  
+![Network_Katmanları](https://user-images.githubusercontent.com/54834769/217610662-c0f2e809-dd88-48b1-b55e-acb51b6aaf55.JPG)
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: İnternet uygulama katmanı, ağ uygulamalarının ve uygulama katmanı protokollerinin bulunduğu katmandır. İnternet uygulama katmanı, HTTP, SMTP, FTP ve DNS gibi protokolleri bulundurur. Uygulama katmanı veri parçası message olarak adlandırılır.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: İnternet ulaşım katmanı, uygulama katmanı mesajlarını uç sistemlerde çalışan uygulamalar arasında aktarır. Ulaşım katmanı veri parçası segment olarak adlandırılır. İnternet ulaşım katmanı protokolleri: TCP, UDP ve SCTP. TCP, uygulama katmanına bağlantı yönelimli (connectionoriented) ve güvenilir (reliable) servis sağlar. TCP segmentlerinin hedefe ulaşmasını garanti eder. TCP, akış kontrolü (flow control) ve tıkanıklık kontrolü (congestion control) ile kaynağın gönderim hızını ayarlar. UDP, güvenilir olmayan servis sağlar. UDP, akış ve tıkanıklık denetimi yapmaz. UDP, geri bildirim beklemez.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: İnternet ağ katmanı, cihazlar/bilgisayarlar arasında ağ katmanı paketlerinin taşınmasını sağlar. Ağ katmanı veri parçası datagram olarak adlandırılır. İnternet ağ katmanı, IP protokolünü bulundurur. Ağ katmanı, IP protokolünün yanı sıra çok sayıda yönlendirme protokolünü de bulundurur. İnternet ağ katmanı, farklı ağlardaki kaynak ile hedef host’lar arasında router’lar üzerinden datagram yönlendirir.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Link katmanı servisleri, link katmanındaki protokol tarafından sağlanır. Link katmanı protokolleri, Ethernet, WiFi ve Point-to-Point Protocol (PPP). Bir datagram hedef host’a giderken bir link üzerinde Ethernet protokolü ile diğerinde ise PPP ile taşınabilir. Link katmanı veri parçası frame olarak adlandırılır.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Fiziksel katman veya link katmanı, çerçeveleri bir düğümden sonraki düğüme aktarırken, fiziksel katman çerçeve içindeki bitleri bir düğümden sonraki düğüme taşır. Fiziksel katman protokolleri iletim ortamına bağlıdır. Link katmanı protokolü Ethernet çok sayıda fiziksel katman protokolüne sahiptir: bir tane büklümlü çift kablo için, bir tane koaksiyel kablo için, bir tane fiber, …
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: ISO (International Standard Organization) tarafından 1970’li yıllarda bilgisayar ağlarını 7 katmanla organize etmiştir. Bu model OSI (Open Systems Interconnection) olarak adlandırılmıştır. OSI modelindeki katmanlar: application, presentation, session, transport, network, data link ve physical. Application, transport, network, data link ve physical katmanlarda İnternet’tekiyle hemen hemen aynı işler yapılır. Presentation layer, verinin gösterimi, şifreleme ve sıkıştırma servislerini sağlar. Session layer, veri gönderimi sırasında checkpoint oluşturur ve bir sorun oluşursa recovery işlemlerini yapar.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Encapsulation.
+  
+![encapsulation](https://user-images.githubusercontent.com/54834769/217611842-f35e6615-d0cd-496d-b84b-f93f08e6a115.JPG)
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Gönderen host’ta her katman üst katmandan aldığı veriye kendi başlık bilgisini ekler ve alt katmana gönderir. Application layer mesajı (M) ile transport layer başlık bilgisi (H_t ) birleştirilerek transport layer segment’ini oluşturur (encapsulation). Network layer, transport layer’dan aldığı segment’e başlık bilgileri (H_n) ekleyerek network-layer datagram’ı oluşturur. Ardından link-layer başlığı (H_l ) eklenerek frame oluşturulur. Her veri parçasında iki tür alan vardır: başlık bilgisi (overhead data) ve üst katman veri parçası (payload data). Transport layer, application layer mesajını birden fazla parçaya bölüp başlık bilgilerini her birisine ekler. Ağ katmanı, transport layer segmentini birden fazla parçaya bölüp başlık bilgilerini her birisine ekler. Alıcı tarafta bu parçalar tekrar birleştirilir.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: İnternet’teki DoS saldırıları 3 gruptur: 1. Vulnerability attack: İyi oluşturulmuş mesajlar hedef sunucu uygulamasına gönderilir. Belirli bir sırada gönderilen mesajlar sunucu uygulamasını durdur, servisi yavaşlatır veya bozabilir. 2. Bandwidth flooding: Çok sayıda paket hedef host’a gönderilir. Mesajlar bağlantıda tıkanıklığa neden olur ve normal paketlerin erişimi engellenir. 3. Connection flooding: Hedef host’a çok sayıda TCP bağlantısı açılır ve normal bağlantı istekleri kabul edilemez.
 
+  --------------------------------------------------
+  
 :dizzy: :dizzy:
 
 :dizzy: :dizzy:
