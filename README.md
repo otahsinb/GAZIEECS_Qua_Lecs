@@ -317,21 +317,45 @@ UDP'nin Sağlamadıkları: Connection setup, Reliability, Flow control, Congesti
 
   --------------------------------------------------
   
-:dizzy: :dizzy:
+:dizzy: :dizzy: Web sunucular, nesneleri bulundurur ve istemcilere gönderir. HTTP, istemci ile sunucu arasındaki iletişimi tanımlar ve ulaşım katmanında TCP kullanır.HTTP istemci, sunucuyla TCP bağlantısı başlatır (port 80).  İstemci ve sunucu process’ler TCP soket açar. Kullanıcı aşağıdaki URL adresini girmiş olsun ve sayfada 10 JPEG referansı olsun. Non-persistent bağlantı ile 11 tane TCP bağlantısı açılır. 
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Round-trip-time (RTT), küçük bir paketin istemci sunucu arasında gidip gelme süresidir. Response time = 2*RTT + File Transmit Time. 
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Nonpersistent HTTP: Her nesne için 2 RTT süre gerekir. İşletim sistemi, her TCP bağlantısı için kaynak ayırır.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Persistent HTTP: Sunucu, cevap gönderdikten sonra bağlantıyı açık tutar. Diğer HTTP mesajları aynı bağlantıdan gönderilir.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: İki tür HTTP mesajı vardır: request ve response. 
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: HTTP request'te kullanılan metodlar: GET, POST, HEAD, PUT, DELETE'tir.
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: HTTP sunucu kullanıcılar için durum geçmişi tutmadan stateless çalışır. HTTP, kullanıcıları takip etmek için cookie’leri kullanır. 
 
-:dizzy: :dizzy:
+:dizzy: :dizzy: Web önbellekleme: Ağdaki HTTP isteklerini orijinal web sunucu yerine Web cache (proxy server) karşılar. Web cache orijinal sunucudan istek yaparken client, isteği karşılarken server durumundadır. 
+
+:dizzy: :dizzy: Hit rate: Web cache tarafından karşılanan istek oranıdır. Hit rate 0,4 olursa, isteklerin %40’ı Web cache tarafından karşılanır. 
+
+:dizzy: :dizzy:\
+Orijinal sunucu gecikmesi = 2,01sn\
+Web cache gecikmesi = 0,01sn\
+Ortalama gecikme = 0,4*0,01+0,6*2,01 = 1,21sn
+
+:dizzy: :dizzy: Şartlı get: Web cache içindeki nesnenin güncel olup olmadığının kontrol edilmesidir. istek-cevap-istek-cevap şeklinde içerik güncelliği kontrol edilir. 
+
+:dizzy: :dizzy: FTP protokolü reliable iletişim yapar ve ulaşım katmanında TCP kullanır. FTP dosya transfer için iki TCP bağlantısı kullanır: Kontrol bağlantısı, Veri bağlantısı FTP, kontrol bilgilerini ayrı TCP bağlantısı ile gönderir (out-of-band). HTTP, request ve response başlık satırlarını dosya transferi ile aynı TCP bağlantısı ile gönderir (in-band). 
+
+--------------------------------------------
+
+:dizzy: :dizzy: Elektronik posta: Üç ana bileşen vardır: user agents (kullanıcı arayüzleri), mail server’lar, simple mail transfer protocol: SMTP.
+
+:dizzy: :dizzy: POP3 ve IMAP mail erişim protokolleridir.
+
+:dizzy: :dizzy: DNS servisleri IP ile domain name arasında dönüşüm sağlar. 
+
+:dizzy: :dizzy: P2P'ler Tüm peer’ların server olmasından dolayı yüksek ölçeklenebilirdir.
+:dizzy: :dizzy: UDP'de handshake yoktur. Data bu protokolde sırasız gidebilir veya kaybolabilir.
+
+-----------------------------------------------
 
 :dizzy: :dizzy:
 
