@@ -353,11 +353,57 @@ Ortalama gecikme = 0,4*0,01+0,6*2,01 = 1,21sn
 :dizzy: :dizzy: DNS servisleri IP ile domain name arasında dönüşüm sağlar. 
 
 :dizzy: :dizzy: P2P'ler Tüm peer’ların server olmasından dolayı yüksek ölçeklenebilirdir.
+  
 :dizzy: :dizzy: UDP'de handshake yoktur. Data bu protokolde sırasız gidebilir veya kaybolabilir.
 
 -----------------------------------------------
 
+:dizzy: :dizzy: Uygulama ve ağ katmanları arasında yer alan ulaşım katmanı (transport layer) ağ mimarisinde merkezi rol oynar. Ağ katmanında yapılan farklı host’lar arasındaki iletişimi, farklı host’larda çalışan process’ler arasında iletişime dönüştürür. Gönderici tarafta TCP uygulama katmanından gelen mesajı alır ve transport layer segment’ine dönüştürür. Ağ katmanına gönderilen segment IP datagram’ına encapsulate edilir. Transport layer’da birden fazla protokol kullanılabilir (TCP, UDP). Her protokol uygulama katmanına farklı servis sağlar. 
+  
+:dizzy: :dizzy: Transport layer protokol yığınında network layer’ın üstündedir. Network layer host’lar arasında mantıksal iletişim sağlar. Transport layer process’ler arasında mantıksal iletişim sağlar. Transport layer protokolünün sunacağı servisi network layer protokolü sınırlar. Network layer’ın sunamadığı servisler transport layer protokolü ile sağlanabilir. Network layer, kayıp paket, paket bozulması, duplicate paket sorunlarına çözüm üretmez. Transport layer reliable iletişim yapabilir. 
+    
+:dizzy: :dizzy: transport ve network layer arasındaki ilişkiye örnek:\
+  İki farklı konutta 12’şer çocuk yaşamaktadır.\
+  Her konuttaki çocukların hepsi diğer konuttaki tüm çocuklara posta servisini kullanarak her hafta mektup gönderiyor. \
+Her konutta bir çocuk gidecek mektupları topluyor ve gelenleri dağıtıyor. \
+Process’ler -> Çocuklar \
+Uygulama mesajları -> Zarftaki mektuplar \
+Host’lar -> Konutlar \
+Transport layer protokolü -> Her konutta mektup toplama ve dağıtma yapan çocuklar \
+Network layer protokolü -> Posta servisi \
+Çocukların sunacağı servisi posta servisi sınırlar.
+    
+:dizzy: :dizzy: İnternet (TCP/IP network) application layer için iki farklı transport layer protokolüne sahiptir. User Datagram Protocol (UDP) güvenilir olmayan (unreliable) ve bağlantısız (connectionless) servis sağlar. Transmission Control Protocol (TCP) güvenlir (reliable) ve bağlantı temelli (connection-oriented) servis sağlar. Ağ uygulaması geliştirirken bu iki protokolden birisi seçilir. İnternet literatüründe transport layer paketi TCP için segment, UDP için datagram olarak adlandırılır. 
+    
 :dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:  
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+    
+:dizzy: :dizzy:
+  
 
 </details>
 
