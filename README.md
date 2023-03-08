@@ -120,19 +120,35 @@ $ cd GAZIEECS_Qua_Lecs
 ## :surfer: 03 Ayrık Matematik ##
 
     .
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    └── 
+    ├── Propositional Logic
+    ├── Predicate Logic (Natural deduction added.)
+    ├── Sets and Functions
+    ├── Integers
+    ├── Induction and Recursion
+    ├── Counting
+    ├── Relations
+    ├── Graphs
+    ├── Trees
+    └── End
+
+:surfer::surfer: Mathematical Reasoning, Combinatorial Analysis, Discrete Structures are our goals.
+
+:surfer::surfer: Predicate logic Propositional logic'İn extend edilmiş halidir. Every, some gibi eklemeler yapılır.
+
+:surfer::surfer: Propositional logic içerisinde atomik yapılara ek olarak connections'lar eklenir. Trurth table elde edilir bunlar ile.
+
+:surfer::surfer: Ankara Türkiye'nin başkentidir ifadesi bir önermedir. 1 + 0 = 2 de bir önermedir. Doğru veya yanlış olabilir. x + 1 = 2 bir önerme değildir. Çünkü bilinmeyen vardır. True veya False diyerek çözebiliriz. Connectors kullanıldığında compound proposition'lar elde edilir. Not, negation, conjunction (and anlamında), disjunction (or anlamında), Implication (ise ya da if),  gibi.
+
+:surfer::surfer: Or iki türlüdür. Inclusive or (bildiğimiz or) ve Exclusive or (xor) olarak ikiye ayrılır. 
+
+:surfer::surfer:
+
+:surfer::surfer: 
+
+:surfer::surfer: 
+
+
+
 
 <a href="#top">Back to top</a>
 
