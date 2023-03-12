@@ -162,11 +162,26 @@ A ve B hangi türdendir?
 
 ![Logic_puzzle](https://user-images.githubusercontent.com/54834769/224529592-f1cc1fde-7e93-465a-a428-f574858ecd04.JPG)
 
-:surfer::surfer:
+:surfer::surfer: Tautology; daima true olan önermeye denir. Contradiction; daima false olan önermeye denir. Contigency; ne tautology ne de contradiction olmayan önermelere denir.
 
-:surfer::surfer:
+:surfer::surfer: De Morgan's Laws. (p and q) ile (p or q) önermelerinin tersi alındığında bunlar birbirine denktir.
 
-:surfer::surfer:
+:surfer::surfer: Disjunctive Normal Form (DNF); or'lu hale çevirmek. implication olarak verilen ise, if'ler kaldırılır. Conjunctive Normal Form (CNF) : Conjection of disjunction ise CNF denir.\
+*Önerme verilerek CNF veya DNF yapıya çevirmemiz istenir.
+
+:surfer::surfer: Önermenin satisfyable olması için en az bir durumda sonuç True olmalı. Yoksa tersi tautology olur ve unsatifiable olur.
+
+:surfer::surfer: 
+
+:surfer::surfer: 
+
+:surfer::surfer: 
+
+:surfer::surfer: 
+
+:surfer::surfer: 
+
+:surfer::surfer: 
 
 
 
