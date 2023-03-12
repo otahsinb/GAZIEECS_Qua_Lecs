@@ -141,11 +141,32 @@ $ cd GAZIEECS_Qua_Lecs
 
 :surfer::surfer: Or iki türlüdür. Inclusive or (bildiğimiz or) ve Exclusive or (xor) olarak ikiye ayrılır. 
 
+:surfer::surfer: Find the converse, inverse and contrapositive of "It raining is a sufficient condition for my not going to town" . p -> q implication'ı olarak başlarsak;
+::: pqqp (not)qppq :::
+
+Converse: If I do not go to town, then it is raining. (q -> p)
+Inverse: If it is not raining, then I will go to town. (not q -> not p)
+Contrapositive: If I go to town, then it is not raining. (not p -> not q)
+Contrapositive p -> q ile aynı sonuçları vermelidir. 
+
+:surfer::surfer: Biconditional; if and only if. İki taraf da aynı ise sonuç true'dur.
+
+:surfer::surfer: n tane değişken varsa 2^n tane row olacaktır.
+
+:surfer::surfer: Consistency için truth table'lar oluşturulur ve tutarlılıklar kontrol edilir.
+
+:surfer::surfer: Bir adada iki tür habitat yaşamaktadır. K'lar her zaman doğru söyler, L'ler her zaman yalan söyler. Bu adaya gittiniz. A ve B isimli iki tür ile karşılaştınız.\
+A dediki "B, L türündendir."\
+B dediki "İkimiz de ters türleriz."\
+A ve B hangi türdendir?
+
+![Logic_puzzle](https://user-images.githubusercontent.com/54834769/224529592-f1cc1fde-7e93-465a-a428-f574858ecd04.JPG)
+
 :surfer::surfer:
 
-:surfer::surfer: 
+:surfer::surfer:
 
-:surfer::surfer: 
+:surfer::surfer:
 
 
 
