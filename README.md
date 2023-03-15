@@ -171,13 +171,17 @@ A ve B hangi türdendir?
 
 :surfer::surfer: Önermenin satisfyable olması için en az bir durumda sonuç True olmalı. Yoksa tersi tautology olur ve unsatifiable olur.
 
-:surfer::surfer: 
+:surfer::surfer: Predicate: P(x), M(x) gibi ifade edilirler. Quantifiers: all veya some kullanımıdır. 
 
-:surfer::surfer: 
+:surfer::surfer: Truth value koyulamıyorsa o ifade önerme değildir.
 
-:surfer::surfer: 
+:surfer::surfer:
 
-:surfer::surfer: 
+![Demorgan_quantifiers](https://user-images.githubusercontent.com/54834769/225395333-43c612d6-8413-4b51-883d-2a52b0b196d8.JPG)
+
+:surfer::surfer:
+
+![example1](https://user-images.githubusercontent.com/54834769/225395941-501f2643-32cc-459b-82be-742cbf812827.JPG)
 
 :surfer::surfer: 
 
