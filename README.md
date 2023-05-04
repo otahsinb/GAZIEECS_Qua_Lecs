@@ -1,9 +1,4 @@
-<div align="center" id="top"> 
-  <img src="./ftry.jpg" alt="insallah" />
 
-  &#xa0;
-
-</div>
 
 <h1 align="center">Doktora Yeterlik Sınavı Çalışma Alanı</h1>
 
